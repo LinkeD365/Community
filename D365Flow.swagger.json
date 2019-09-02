@@ -1,0 +1,3662 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "D365FlowConnector",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "ccdemo0619.crm.dynamics.com",
+  "basePath": "/api/data/v9.0",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/api/data/v9.0/CloseIncident": {},
+    "/WhoAmI()": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "initialversion": {
+                        "type": "string",
+                        "description": "initialversion"
+                      },
+                      "negativecurrencyformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "negativecurrencyformatcode"
+                      },
+                      "currentkanumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentkanumber"
+                      },
+                      "campaignprefix": {
+                        "type": "string",
+                        "description": "campaignprefix"
+                      },
+                      "maxproductsinbundle": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxproductsinbundle"
+                      },
+                      "versionnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "versionnumber"
+                      },
+                      "discountcalculationmethod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "discountcalculationmethod"
+                      },
+                      "maxfolderbasedtrackingmappings": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxfolderbasedtrackingmappings"
+                      },
+                      "systemuserid": {
+                        "type": "string",
+                        "description": "systemuserid"
+                      },
+                      "minaddressbooksyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minaddressbooksyncinterval"
+                      },
+                      "maxsupportedinternetexplorerversion": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxsupportedinternetexplorerversion"
+                      },
+                      "allowusersseeappdownloadmessage": {
+                        "type": "boolean",
+                        "description": "allowusersseeappdownloadmessage"
+                      },
+                      "showkbarticledeprecationnotification": {
+                        "type": "boolean",
+                        "description": "showkbarticledeprecationnotification"
+                      },
+                      "cascadestatusupdate": {
+                        "type": "boolean",
+                        "description": "cascadestatusupdate"
+                      },
+                      "generatealertsforinformation": {
+                        "type": "boolean",
+                        "description": "generatealertsforinformation"
+                      },
+                      "organizationstate": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "organizationstate"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "name"
+                      },
+                      "trackingtokenidbase": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "trackingtokenidbase"
+                      },
+                      "recurrenceexpansionsynchcreatemax": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionsynchcreatemax"
+                      },
+                      "emailconnectionchannel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "emailconnectionchannel"
+                      },
+                      "maximumentitieswithactivesla": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumentitieswithactivesla"
+                      },
+                      "isfulltextsearchenabled": {
+                        "type": "boolean",
+                        "description": "isfulltextsearchenabled"
+                      },
+                      "suppresssla": {
+                        "type": "boolean",
+                        "description": "suppresssla"
+                      },
+                      "unresolveemailaddressifmultiplematch": {
+                        "type": "boolean",
+                        "description": "unresolveemailaddressifmultiplematch"
+                      },
+                      "kbprefix": {
+                        "type": "string",
+                        "description": "kbprefix"
+                      },
+                      "languagecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "languagecode"
+                      },
+                      "maxverboseloggingsynccycles": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxverboseloggingsynccycles"
+                      },
+                      "defaultrecurrenceendrangetype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "defaultrecurrenceendrangetype"
+                      },
+                      "createproductswithoutparentinactivestate": {
+                        "type": "boolean",
+                        "description": "createproductswithoutparentinactivestate"
+                      },
+                      "allowuserformmodepreference": {
+                        "type": "boolean",
+                        "description": "allowuserformmodepreference"
+                      },
+                      "autoapplydefaultoncaseupdate": {
+                        "type": "boolean",
+                        "description": "autoapplydefaultoncaseupdate"
+                      },
+                      "fiscalperiodformat": {
+                        "type": "string",
+                        "description": "fiscalperiodformat"
+                      },
+                      "ispreviewforemailmonitoringallowed": {
+                        "type": "boolean",
+                        "description": "ispreviewforemailmonitoringallowed"
+                      },
+                      "currentcategorynumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcategorynumber"
+                      },
+                      "enableimmersiveskypeintegration": {
+                        "type": "boolean",
+                        "description": "enableimmersiveskypeintegration"
+                      },
+                      "basecurrencyprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "basecurrencyprecision"
+                      },
+                      "orgdborgsettings": {
+                        "type": "string",
+                        "description": "orgdborgsettings"
+                      },
+                      "currentordernumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentordernumber"
+                      },
+                      "globalhelpurl": {
+                        "type": "string",
+                        "description": "globalhelpurl"
+                      },
+                      "isofficegraphenabled": {
+                        "type": "boolean",
+                        "description": "isofficegraphenabled"
+                      },
+                      "webresourcehash": {
+                        "type": "string",
+                        "description": "webresourcehash"
+                      },
+                      "uniquespecifierlength": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "uniquespecifierlength"
+                      },
+                      "currencydecimalprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencydecimalprecision"
+                      },
+                      "maxconditionsformobileofflinefilters": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxconditionsformobileofflinefilters"
+                      },
+                      "dayssincerecordlastmodifiedmaxvalue": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "dayssincerecordlastmodifiedmaxvalue"
+                      },
+                      "fiscalperiodformatperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalperiodformatperiod"
+                      },
+                      "useinbuiltrulefordefaultpricelistselection": {
+                        "type": "boolean",
+                        "description": "useinbuiltrulefordefaultpricelistselection"
+                      },
+                      "ismobileofflineenabled": {
+                        "type": "boolean",
+                        "description": "ismobileofflineenabled"
+                      },
+                      "socialinsightsenabled": {
+                        "type": "boolean",
+                        "description": "socialinsightsenabled"
+                      },
+                      "allowunresolvedpartiesonemailsend": {
+                        "type": "boolean",
+                        "description": "allowunresolvedpartiesonemailsend"
+                      },
+                      "fiscalyeardisplaycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyeardisplaycode"
+                      },
+                      "servestaticresourcesfromazurecdn": {
+                        "type": "boolean",
+                        "description": "servestaticresourcesfromazurecdn"
+                      },
+                      "isreadauditenabled": {
+                        "type": "boolean",
+                        "description": "isreadauditenabled"
+                      },
+                      "timeformatstring": {
+                        "type": "string",
+                        "description": "timeformatstring"
+                      },
+                      "restrictstatusupdate": {
+                        "type": "boolean",
+                        "description": "restrictstatusupdate"
+                      },
+                      "maximumtrackingnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumtrackingnumber"
+                      },
+                      "maxactionstepsinbpf": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxactionstepsinbpf"
+                      },
+                      "fullnameconventioncode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fullnameconventioncode"
+                      },
+                      "_modifiedby_value": {
+                        "type": "string",
+                        "description": "_modifiedby_value"
+                      },
+                      "enablelivepersonacarduci": {
+                        "type": "boolean",
+                        "description": "enablelivepersonacarduci"
+                      },
+                      "isenabledforallroles": {
+                        "type": "boolean",
+                        "description": "isenabledforallroles"
+                      },
+                      "isbpfentitycustomizationfeatureenabled": {
+                        "type": "boolean",
+                        "description": "isbpfentitycustomizationfeatureenabled"
+                      },
+                      "maxverboseloggingmailbox": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxverboseloggingmailbox"
+                      },
+                      "pinpointlanguagecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pinpointlanguagecode"
+                      },
+                      "businessclosurecalendarid": {
+                        "type": "string",
+                        "description": "businessclosurecalendarid"
+                      },
+                      "cortanaproactiveexperienceenabled": {
+                        "type": "boolean",
+                        "description": "cortanaproactiveexperienceenabled"
+                      },
+                      "isactivityanalysisenabled": {
+                        "type": "boolean",
+                        "description": "isactivityanalysisenabled"
+                      },
+                      "createdon": {
+                        "type": "string",
+                        "description": "createdon"
+                      },
+                      "timeformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "timeformatcode"
+                      },
+                      "numberformat": {
+                        "type": "string",
+                        "description": "numberformat"
+                      },
+                      "requireapprovalforqueueemail": {
+                        "type": "boolean",
+                        "description": "requireapprovalforqueueemail"
+                      },
+                      "isduplicatedetectionenabledforimport": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforimport"
+                      },
+                      "ismailboxforcedunlockingenabled": {
+                        "type": "boolean",
+                        "description": "ismailboxforcedunlockingenabled"
+                      },
+                      "currentcasenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcasenumber"
+                      },
+                      "amdesignator": {
+                        "type": "string",
+                        "description": "amdesignator"
+                      },
+                      "slapausestates": {
+                        "type": "string",
+                        "description": "slapausestates"
+                      },
+                      "mailboxpermanentissueminrange": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mailboxpermanentissueminrange"
+                      },
+                      "ismailboxinactivebackoffenabled": {
+                        "type": "boolean",
+                        "description": "ismailboxinactivebackoffenabled"
+                      },
+                      "enablepricingoncreate": {
+                        "type": "boolean",
+                        "description": "enablepricingoncreate"
+                      },
+                      "isrelationshipinsightsenabled": {
+                        "type": "boolean",
+                        "description": "isrelationshipinsightsenabled"
+                      },
+                      "tagpollingperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tagpollingperiod"
+                      },
+                      "negativeformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "negativeformatcode"
+                      },
+                      "istextwrapenabled": {
+                        "type": "boolean",
+                        "description": "istextwrapenabled"
+                      },
+                      "uselegacyrendering": {
+                        "type": "boolean",
+                        "description": "uselegacyrendering"
+                      },
+                      "tokenexpiry": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tokenexpiry"
+                      },
+                      "ispricelistmandatory": {
+                        "type": "boolean",
+                        "description": "ispricelistmandatory"
+                      },
+                      "bulkoperationprefix": {
+                        "type": "string",
+                        "description": "bulkoperationprefix"
+                      },
+                      "isactionsupportfeatureenabled": {
+                        "type": "boolean",
+                        "description": "isactionsupportfeatureenabled"
+                      },
+                      "currentquotenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentquotenumber"
+                      },
+                      "minoutlooksyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minoutlooksyncinterval"
+                      },
+                      "orderprefix": {
+                        "type": "string",
+                        "description": "orderprefix"
+                      },
+                      "integrationuserid": {
+                        "type": "string",
+                        "description": "integrationuserid"
+                      },
+                      "isonedriveenabled": {
+                        "type": "boolean",
+                        "description": "isonedriveenabled"
+                      },
+                      "displaynavigationtour": {
+                        "type": "boolean",
+                        "description": "displaynavigationtour"
+                      },
+                      "yearstartweekcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "yearstartweekcode"
+                      },
+                      "ishierarchicalsecuritymodelenabled": {
+                        "type": "boolean",
+                        "description": "ishierarchicalsecuritymodelenabled"
+                      },
+                      "enablemicrosoftflowintegration": {
+                        "type": "boolean",
+                        "description": "enablemicrosoftflowintegration"
+                      },
+                      "currentimportsequencenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentimportsequencenumber"
+                      },
+                      "productrecommendationsenabled": {
+                        "type": "boolean",
+                        "description": "productrecommendationsenabled"
+                      },
+                      "useraccessauditinginterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "useraccessauditinginterval"
+                      },
+                      "trackingprefix": {
+                        "type": "string",
+                        "description": "trackingprefix"
+                      },
+                      "allowoutlookscheduledsyncs": {
+                        "type": "boolean",
+                        "description": "allowoutlookscheduledsyncs"
+                      },
+                      "tagmaxaggressivecycles": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tagmaxaggressivecycles"
+                      },
+                      "plugintracelogsetting": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "plugintracelogsetting"
+                      },
+                      "supportuserid": {
+                        "type": "string",
+                        "description": "supportuserid"
+                      },
+                      "ismsteamscollaborationenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamscollaborationenabled"
+                      },
+                      "currencysymbol": {
+                        "type": "string",
+                        "description": "currencysymbol"
+                      },
+                      "dateseparator": {
+                        "type": "string",
+                        "description": "dateseparator"
+                      },
+                      "resolvesimilarunresolvedemailaddress": {
+                        "type": "boolean",
+                        "description": "resolvesimilarunresolvedemailaddress"
+                      },
+                      "fiscalyearformatyear": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatyear"
+                      },
+                      "ispdfgenerationenabled": {
+                        "type": "string",
+                        "description": "ispdfgenerationenabled"
+                      },
+                      "isfolderbasedtrackingenabled": {
+                        "type": "boolean",
+                        "description": "isfolderbasedtrackingenabled"
+                      },
+                      "disablesocialcare": {
+                        "type": "boolean",
+                        "description": "disablesocialcare"
+                      },
+                      "isquickcreateenabledforopportunityclose": {
+                        "type": "boolean",
+                        "description": "isquickcreateenabledforopportunityclose"
+                      },
+                      "caseprefix": {
+                        "type": "string",
+                        "description": "caseprefix"
+                      },
+                      "currentbulkoperationnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentbulkoperationnumber"
+                      },
+                      "reportscripterrors": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "reportscripterrors"
+                      },
+                      "issopintegrationenabled": {
+                        "type": "boolean",
+                        "description": "issopintegrationenabled"
+                      },
+                      "allowaddressbooksyncs": {
+                        "type": "boolean",
+                        "description": "allowaddressbooksyncs"
+                      },
+                      "nexttrackingnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "nexttrackingnumber"
+                      },
+                      "enablelpauthoring": {
+                        "type": "boolean",
+                        "description": "enablelpauthoring"
+                      },
+                      "pricingdecimalprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pricingdecimalprecision"
+                      },
+                      "allowmarketingemailexecution": {
+                        "type": "boolean",
+                        "description": "allowmarketingemailexecution"
+                      },
+                      "allowlegacydialogsembedding": {
+                        "type": "boolean",
+                        "description": "allowlegacydialogsembedding"
+                      },
+                      "powerbifeatureenabled": {
+                        "type": "boolean",
+                        "description": "powerbifeatureenabled"
+                      },
+                      "maxrecordsforlookupfilters": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxrecordsforlookupfilters"
+                      },
+                      "textanalyticsenabled": {
+                        "type": "boolean",
+                        "description": "textanalyticsenabled"
+                      },
+                      "isauditenabled": {
+                        "type": "boolean",
+                        "description": "isauditenabled"
+                      },
+                      "kaprefix": {
+                        "type": "string",
+                        "description": "kaprefix"
+                      },
+                      "pmdesignator": {
+                        "type": "string",
+                        "description": "pmdesignator"
+                      },
+                      "incomingemailexchangeemailretrievalbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "incomingemailexchangeemailretrievalbatchsize"
+                      },
+                      "parsedtableprefix": {
+                        "type": "string",
+                        "description": "parsedtableprefix"
+                      },
+                      "enablelivepersoncardintegrationinoffice": {
+                        "type": "boolean",
+                        "description": "enablelivepersoncardintegrationinoffice"
+                      },
+                      "rierrorstatus": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "rierrorstatus"
+                      },
+                      "_defaultemailserverprofileid_value": {
+                        "type": "string",
+                        "description": "_defaultemailserverprofileid_value"
+                      },
+                      "isautodatacaptureenabled": {
+                        "type": "boolean",
+                        "description": "isautodatacaptureenabled"
+                      },
+                      "parsedtablecolumnprefix": {
+                        "type": "string",
+                        "description": "parsedtablecolumnprefix"
+                      },
+                      "isappmode": {
+                        "type": "boolean",
+                        "description": "isappmode"
+                      },
+                      "ignoreinternalemail": {
+                        "type": "boolean",
+                        "description": "ignoreinternalemail"
+                      },
+                      "enableunifiedinterfaceshellrefresh": {
+                        "type": "boolean",
+                        "description": "enableunifiedinterfaceshellrefresh"
+                      },
+                      "socialinsightstermsaccepted": {
+                        "type": "boolean",
+                        "description": "socialinsightstermsaccepted"
+                      },
+                      "ismsteamssettingchangedbyuser": {
+                        "type": "boolean",
+                        "description": "ismsteamssettingchangedbyuser"
+                      },
+                      "timeseparator": {
+                        "type": "string",
+                        "description": "timeseparator"
+                      },
+                      "allowentityonlyaudit": {
+                        "type": "boolean",
+                        "description": "allowentityonlyaudit"
+                      },
+                      "recurrenceexpansionjobbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionjobbatchsize"
+                      },
+                      "contractprefix": {
+                        "type": "string",
+                        "description": "contractprefix"
+                      },
+                      "maxdepthforhierarchicalsecuritymodel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxdepthforhierarchicalsecuritymodel"
+                      },
+                      "isduplicatedetectionenabledforonlinecreateupdate": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforonlinecreateupdate"
+                      },
+                      "recurrencedefaultnumberofoccurrences": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrencedefaultnumberofoccurrences"
+                      },
+                      "ismsteamsenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamsenabled"
+                      },
+                      "sessiontimeoutenabled": {
+                        "type": "boolean",
+                        "description": "sessiontimeoutenabled"
+                      },
+                      "allowofflinescheduledsyncs": {
+                        "type": "boolean",
+                        "description": "allowofflinescheduledsyncs"
+                      },
+                      "sharepointdeploymenttype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "sharepointdeploymenttype"
+                      },
+                      "inactivitytimeoutenabled": {
+                        "type": "boolean",
+                        "description": "inactivitytimeoutenabled"
+                      },
+                      "localeid": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "localeid"
+                      },
+                      "ispreviewenabledforactioncard": {
+                        "type": "boolean",
+                        "description": "ispreviewenabledforactioncard"
+                      },
+                      "currencyformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencyformatcode"
+                      },
+                      "ismsteamsusersyncenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamsusersyncenabled"
+                      },
+                      "isappointmentattachmentsyncenabled": {
+                        "type": "boolean",
+                        "description": "isappointmentattachmentsyncenabled"
+                      },
+                      "allowclientmessagebarad": {
+                        "type": "boolean",
+                        "description": "allowclientmessagebarad"
+                      },
+                      "decimalsymbol": {
+                        "type": "string",
+                        "description": "decimalsymbol"
+                      },
+                      "currentkbnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentkbnumber"
+                      },
+                      "fiscalyearformatsuffix": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatsuffix"
+                      },
+                      "mailboxintermittentissueminrange": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mailboxintermittentissueminrange"
+                      },
+                      "isresourcebookingexchangesyncenabled": {
+                        "type": "boolean",
+                        "description": "isresourcebookingexchangesyncenabled"
+                      },
+                      "maximumdynamicpropertiesallowed": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumdynamicpropertiesallowed"
+                      },
+                      "iscontactmailingaddresssyncenabled": {
+                        "type": "boolean",
+                        "description": "iscontactmailingaddresssyncenabled"
+                      },
+                      "defaultemailsettings": {
+                        "type": "string",
+                        "description": "defaultemailsettings"
+                      },
+                      "defaultthemedata": {
+                        "type": "string",
+                        "description": "defaultthemedata"
+                      },
+                      "syncoptinselection": {
+                        "type": "boolean",
+                        "description": "syncoptinselection"
+                      },
+                      "futureexpansionwindow": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "futureexpansionwindow"
+                      },
+                      "isduplicatedetectionenabled": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabled"
+                      },
+                      "isemailmonitoringallowed": {
+                        "type": "boolean",
+                        "description": "isemailmonitoringallowed"
+                      },
+                      "isuseraccessauditenabled": {
+                        "type": "boolean",
+                        "description": "isuseraccessauditenabled"
+                      },
+                      "currentinvoicenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentinvoicenumber"
+                      },
+                      "autoapplydefaultoncasecreate": {
+                        "type": "boolean",
+                        "description": "autoapplydefaultoncasecreate"
+                      },
+                      "expirechangetrackingindays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "expirechangetrackingindays"
+                      },
+                      "autoapplysla": {
+                        "type": "boolean",
+                        "description": "autoapplysla"
+                      },
+                      "syncbulkoperationmaxlimit": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "syncbulkoperationmaxlimit"
+                      },
+                      "isdisabled": {
+                        "type": "boolean",
+                        "description": "isdisabled"
+                      },
+                      "externalpartyentitysettings": {
+                        "type": "string",
+                        "description": "externalpartyentitysettings"
+                      },
+                      "iscustomcontrolsincanvasappsenabled": {
+                        "type": "boolean",
+                        "description": "iscustomcontrolsincanvasappsenabled"
+                      },
+                      "appdesignerexperienceenabled": {
+                        "type": "boolean",
+                        "description": "appdesignerexperienceenabled"
+                      },
+                      "currentcontractnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcontractnumber"
+                      },
+                      "mobileofflineminlicensetrial": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflineminlicensetrial"
+                      },
+                      "allowautounsubscribe": {
+                        "type": "boolean",
+                        "description": "allowautounsubscribe"
+                      },
+                      "fiscalyearformat": {
+                        "type": "string",
+                        "description": "fiscalyearformat"
+                      },
+                      "currentcampaignnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcampaignnumber"
+                      },
+                      "isluisenabledford365bot": {
+                        "type": "boolean",
+                        "description": "isluisenabledford365bot"
+                      },
+                      "enablebingmapsintegration": {
+                        "type": "boolean",
+                        "description": "enablebingmapsintegration"
+                      },
+                      "dateformatstring": {
+                        "type": "string",
+                        "description": "dateformatstring"
+                      },
+                      "isactioncardenabled": {
+                        "type": "boolean",
+                        "description": "isactioncardenabled"
+                      },
+                      "expiresubscriptionsindays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "expiresubscriptionsindays"
+                      },
+                      "maximumactivebusinessprocessflowsallowedperentity": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumactivebusinessprocessflowsallowedperentity"
+                      },
+                      "ismanualsalesforecastingenabled": {
+                        "type": "boolean",
+                        "description": "ismanualsalesforecastingenabled"
+                      },
+                      "blockedattachments": {
+                        "type": "string",
+                        "description": "blockedattachments"
+                      },
+                      "schemanameprefix": {
+                        "type": "string",
+                        "description": "schemanameprefix"
+                      },
+                      "categoryprefix": {
+                        "type": "string",
+                        "description": "categoryprefix"
+                      },
+                      "isassignedtaskssyncenabled": {
+                        "type": "boolean",
+                        "description": "isassignedtaskssyncenabled"
+                      },
+                      "allowlegacyclientexperience": {
+                        "type": "boolean",
+                        "description": "allowlegacyclientexperience"
+                      },
+                      "sampledataimportid": {
+                        "type": "string",
+                        "description": "sampledataimportid"
+                      },
+                      "numbergroupformat": {
+                        "type": "string",
+                        "description": "numbergroupformat"
+                      },
+                      "emailsendpollingperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "emailsendpollingperiod"
+                      },
+                      "allowautoresponsecreation": {
+                        "type": "boolean",
+                        "description": "allowautoresponsecreation"
+                      },
+                      "orginsightsenabled": {
+                        "type": "boolean",
+                        "description": "orginsightsenabled"
+                      },
+                      "getstartedpanecontentenabled": {
+                        "type": "boolean",
+                        "description": "getstartedpanecontentenabled"
+                      },
+                      "emailcorrelationenabled": {
+                        "type": "boolean",
+                        "description": "emailcorrelationenabled"
+                      },
+                      "defaultcrmcustomname": {
+                        "type": "string",
+                        "description": "defaultcrmcustomname"
+                      },
+                      "allowautounsubscribeacknowledgement": {
+                        "type": "boolean",
+                        "description": "allowautounsubscribeacknowledgement"
+                      },
+                      "goalrollupfrequency": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "goalrollupfrequency"
+                      },
+                      "maxuploadfilesize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxuploadfilesize"
+                      },
+                      "privilegeusergroupid": {
+                        "type": "string",
+                        "description": "privilegeusergroupid"
+                      },
+                      "allowwebexcelexport": {
+                        "type": "boolean",
+                        "description": "allowwebexcelexport"
+                      },
+                      "maxappointmentdurationdays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxappointmentdurationdays"
+                      },
+                      "calendartype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "calendartype"
+                      },
+                      "showweeknumber": {
+                        "type": "boolean",
+                        "description": "showweeknumber"
+                      },
+                      "ispresenceenabled": {
+                        "type": "boolean",
+                        "description": "ispresenceenabled"
+                      },
+                      "enforcereadonlyplugins": {
+                        "type": "boolean",
+                        "description": "enforcereadonlyplugins"
+                      },
+                      "rendersecureiframeforemail": {
+                        "type": "boolean",
+                        "description": "rendersecureiframeforemail"
+                      },
+                      "syncbulkoperationbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "syncbulkoperationbatchsize"
+                      },
+                      "isconflictdetectionenabledformobileclient": {
+                        "type": "boolean",
+                        "description": "isconflictdetectionenabledformobileclient"
+                      },
+                      "sharetopreviousowneronassign": {
+                        "type": "boolean",
+                        "description": "sharetopreviousowneronassign"
+                      },
+                      "bounddashboarddefaultcardexpanded": {
+                        "type": "boolean",
+                        "description": "bounddashboarddefaultcardexpanded"
+                      },
+                      "ismobileclientondemandsyncenabled": {
+                        "type": "boolean",
+                        "description": "ismobileclientondemandsyncenabled"
+                      },
+                      "fiscalyearperiodconnect": {
+                        "type": "string",
+                        "description": "fiscalyearperiodconnect"
+                      },
+                      "usepositionhierarchy": {
+                        "type": "boolean",
+                        "description": "usepositionhierarchy"
+                      },
+                      "weekstartdaycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "weekstartdaycode"
+                      },
+                      "isdefaultcountrycodecheckenabled": {
+                        "type": "boolean",
+                        "description": "isdefaultcountrycodecheckenabled"
+                      },
+                      "maximumslakpiperentitywithactivesla": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumslakpiperentitywithactivesla"
+                      },
+                      "isfiscalperiodmonthbased": {
+                        "type": "boolean",
+                        "description": "isfiscalperiodmonthbased"
+                      },
+                      "recurrenceexpansionjobbatchinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionjobbatchinterval"
+                      },
+                      "taskbasedflowenabled": {
+                        "type": "boolean",
+                        "description": "taskbasedflowenabled"
+                      },
+                      "longdateformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "longdateformatcode"
+                      },
+                      "numberseparator": {
+                        "type": "string",
+                        "description": "numberseparator"
+                      },
+                      "useskypeprotocol": {
+                        "type": "boolean",
+                        "description": "useskypeprotocol"
+                      },
+                      "pastexpansionwindow": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pastexpansionwindow"
+                      },
+                      "fiscalyearformatprefix": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatprefix"
+                      },
+                      "ispaienabled": {
+                        "type": "boolean",
+                        "description": "ispaienabled"
+                      },
+                      "isemailserverprofilecontentfilteringenabled": {
+                        "type": "boolean",
+                        "description": "isemailserverprofilecontentfilteringenabled"
+                      },
+                      "oobpricecalculationenabled": {
+                        "type": "boolean",
+                        "description": "oobpricecalculationenabled"
+                      },
+                      "globalappendurlparametersenabled": {
+                        "type": "boolean",
+                        "description": "globalappendurlparametersenabled"
+                      },
+                      "iscontentsecuritypolicyenabled": {
+                        "type": "boolean",
+                        "description": "iscontentsecuritypolicyenabled"
+                      },
+                      "signupoutlookdownloadfwlink": {
+                        "type": "string",
+                        "description": "signupoutlookdownloadfwlink"
+                      },
+                      "quoteprefix": {
+                        "type": "string",
+                        "description": "quoteprefix"
+                      },
+                      "quickfindrecordlimitenabled": {
+                        "type": "boolean",
+                        "description": "quickfindrecordlimitenabled"
+                      },
+                      "grantaccesstonetworkservice": {
+                        "type": "boolean",
+                        "description": "grantaccesstonetworkservice"
+                      },
+                      "goalrollupexpirytime": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "goalrollupexpirytime"
+                      },
+                      "generatealertsforerrors": {
+                        "type": "boolean",
+                        "description": "generatealertsforerrors"
+                      },
+                      "featureset": {
+                        "type": "string",
+                        "description": "featureset"
+                      },
+                      "mobileofflineminlicenseprod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflineminlicenseprod"
+                      },
+                      "usereadform": {
+                        "type": "boolean",
+                        "description": "usereadform"
+                      },
+                      "isdelveactionhubintegrationenabled": {
+                        "type": "boolean",
+                        "description": "isdelveactionhubintegrationenabled"
+                      },
+                      "externalpartycorrelationkeys": {
+                        "type": "string",
+                        "description": "externalpartycorrelationkeys"
+                      },
+                      "isdelegateaccessenabled": {
+                        "type": "boolean",
+                        "description": "isdelegateaccessenabled"
+                      },
+                      "_basecurrencyid_value": {
+                        "type": "string",
+                        "description": "_basecurrencyid_value"
+                      },
+                      "generatealertsforwarnings": {
+                        "type": "boolean",
+                        "description": "generatealertsforwarnings"
+                      },
+                      "currentparsedtablenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentparsedtablenumber"
+                      },
+                      "appointmentricheditorexperience": {
+                        "type": "boolean",
+                        "description": "appointmentricheditorexperience"
+                      },
+                      "maxrecordsforexporttoexcel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxrecordsforexporttoexcel"
+                      },
+                      "isfolderautocreatedonsp": {
+                        "type": "boolean",
+                        "description": "isfolderautocreatedonsp"
+                      },
+                      "isduplicatedetectionenabledforofflinesync": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforofflinesync"
+                      },
+                      "modifiedon": {
+                        "type": "string",
+                        "description": "modifiedon"
+                      },
+                      "isexternalfilestorageenabled": {
+                        "type": "boolean",
+                        "description": "isexternalfilestorageenabled"
+                      },
+                      "trackingtokeniddigits": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "trackingtokeniddigits"
+                      },
+                      "officeappsautodeploymentenabled": {
+                        "type": "boolean",
+                        "description": "officeappsautodeploymentenabled"
+                      },
+                      "fiscalperiodtype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalperiodtype"
+                      },
+                      "globalhelpurlenabled": {
+                        "type": "boolean",
+                        "description": "globalhelpurlenabled"
+                      },
+                      "isautosaveenabled": {
+                        "type": "boolean",
+                        "description": "isautosaveenabled"
+                      },
+                      "notifymailboxownerofemailserverlevelalerts": {
+                        "type": "boolean",
+                        "description": "notifymailboxownerofemailserverlevelalerts"
+                      },
+                      "fiscalcalendarstart": {
+                        "type": "string",
+                        "description": "fiscalcalendarstart"
+                      },
+                      "basecurrencysymbol": {
+                        "type": "string",
+                        "description": "basecurrencysymbol"
+                      },
+                      "sqmenabled": {
+                        "type": "boolean",
+                        "description": "sqmenabled"
+                      },
+                      "hashfilterkeywords": {
+                        "type": "string",
+                        "description": "hashfilterkeywords"
+                      },
+                      "organizationid": {
+                        "type": "string",
+                        "description": "organizationid"
+                      },
+                      "mobileofflinesyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflinesyncinterval"
+                      },
+                      "minofflinesyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minofflinesyncinterval"
+                      },
+                      "ispreviewforautocaptureenabled": {
+                        "type": "boolean",
+                        "description": "ispreviewforautocaptureenabled"
+                      },
+                      "currencydisplayoption": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencydisplayoption"
+                      },
+                      "invoiceprefix": {
+                        "type": "string",
+                        "description": "invoiceprefix"
+                      },
+                      "isexternalsearchindexenabled": {
+                        "type": "boolean",
+                        "description": "isexternalsearchindexenabled"
+                      },
+                      "delegatedadminuserid": {
+                        "type": "string",
+                        "description": "delegatedadminuserid"
+                      },
+                      "highcontrastthemedata": {
+                        "type": "string",
+                        "description": "highcontrastthemedata"
+                      },
+                      "dateformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "dateformatcode"
+                      },
+                      "requireapprovalforuseremail": {
+                        "type": "boolean",
+                        "description": "requireapprovalforuseremail"
+                      },
+                      "widgetproperties": {
+                        "type": "string",
+                        "description": "widgetproperties"
+                      },
+                      "sessiontimeoutreminderinmins": {
+                        "type": "string",
+                        "description": "sessiontimeoutreminderinmins"
+                      },
+                      "privreportinggroupid": {
+                        "type": "string",
+                        "description": "privreportinggroupid"
+                      },
+                      "v3calloutconfighash": {
+                        "type": "string",
+                        "description": "v3calloutconfighash"
+                      },
+                      "hashdeltasubjectcount": {
+                        "type": "string",
+                        "description": "hashdeltasubjectcount"
+                      },
+                      "officegraphdelveurl": {
+                        "type": "string",
+                        "description": "officegraphdelveurl"
+                      },
+                      "postmessagewhitelistdomains": {
+                        "type": "string",
+                        "description": "postmessagewhitelistdomains"
+                      },
+                      "contentsecuritypolicyconfiguration": {
+                        "type": "string",
+                        "description": "contentsecuritypolicyconfiguration"
+                      },
+                      "tokenkey": {
+                        "type": "string",
+                        "description": "tokenkey"
+                      },
+                      "entityimageid": {
+                        "type": "string",
+                        "description": "entityimageid"
+                      },
+                      "yammernetworkpermalink": {
+                        "type": "string",
+                        "description": "yammernetworkpermalink"
+                      },
+                      "picture": {
+                        "type": "string",
+                        "description": "picture"
+                      },
+                      "azureschedulerjobcollectionname": {
+                        "type": "string",
+                        "description": "azureschedulerjobcollectionname"
+                      },
+                      "_createdby_value": {
+                        "type": "string",
+                        "description": "_createdby_value"
+                      },
+                      "bingmapsapikey": {
+                        "type": "string",
+                        "description": "bingmapsapikey"
+                      },
+                      "syncoptinselectionstatus": {
+                        "type": "string",
+                        "description": "syncoptinselectionstatus"
+                      },
+                      "socialinsightsinstance": {
+                        "type": "string",
+                        "description": "socialinsightsinstance"
+                      },
+                      "privacystatementurl": {
+                        "type": "string",
+                        "description": "privacystatementurl"
+                      },
+                      "clientfeatureset": {
+                        "type": "string",
+                        "description": "clientfeatureset"
+                      },
+                      "utcconversiontimezonecode": {
+                        "type": "string",
+                        "description": "utcconversiontimezonecode"
+                      },
+                      "sqlaccessgroupname": {
+                        "type": "string",
+                        "description": "sqlaccessgroupname"
+                      },
+                      "kmsettings": {
+                        "type": "string",
+                        "description": "kmsettings"
+                      },
+                      "hashminaddresscount": {
+                        "type": "string",
+                        "description": "hashminaddresscount"
+                      },
+                      "inactivitytimeoutinmins": {
+                        "type": "string",
+                        "description": "inactivitytimeoutinmins"
+                      },
+                      "externalbaseurl": {
+                        "type": "string",
+                        "description": "externalbaseurl"
+                      },
+                      "_defaultmobileofflineprofileid_value": {
+                        "type": "string",
+                        "description": "_defaultmobileofflineprofileid_value"
+                      },
+                      "hashmaxcount": {
+                        "type": "string",
+                        "description": "hashmaxcount"
+                      },
+                      "reportinggroupname": {
+                        "type": "string",
+                        "description": "reportinggroupname"
+                      },
+                      "aciwebendpointurl": {
+                        "type": "string",
+                        "description": "aciwebendpointurl"
+                      },
+                      "_modifiedonbehalfby_value": {
+                        "type": "string",
+                        "description": "_modifiedonbehalfby_value"
+                      },
+                      "yammeroauthaccesstokenexpired": {
+                        "type": "string",
+                        "description": "yammeroauthaccesstokenexpired"
+                      },
+                      "defaultcountrycode": {
+                        "type": "string",
+                        "description": "defaultcountrycode"
+                      },
+                      "isnotesanalysisenabled": {
+                        "type": "string",
+                        "description": "isnotesanalysisenabled"
+                      },
+                      "usergroupid": {
+                        "type": "string",
+                        "description": "usergroupid"
+                      },
+                      "microsoftflowenvironment": {
+                        "type": "string",
+                        "description": "microsoftflowenvironment"
+                      },
+                      "_acknowledgementtemplateid_value": {
+                        "type": "string",
+                        "description": "_acknowledgementtemplateid_value"
+                      },
+                      "entityimage": {
+                        "type": "string",
+                        "description": "entityimage"
+                      },
+                      "entityimage_timestamp": {
+                        "type": "string",
+                        "description": "entityimage_timestamp"
+                      },
+                      "privreportinggroupname": {
+                        "type": "string",
+                        "description": "privreportinggroupname"
+                      },
+                      "inactivitytimeoutreminderinmins": {
+                        "type": "string",
+                        "description": "inactivitytimeoutreminderinmins"
+                      },
+                      "disabledreason": {
+                        "type": "string",
+                        "description": "disabledreason"
+                      },
+                      "_createdonbehalfby_value": {
+                        "type": "string",
+                        "description": "_createdonbehalfby_value"
+                      },
+                      "schedulingengine": {
+                        "type": "string",
+                        "description": "schedulingengine"
+                      },
+                      "enablesmartmatching": {
+                        "type": "string",
+                        "description": "enablesmartmatching"
+                      },
+                      "sortid": {
+                        "type": "string",
+                        "description": "sortid"
+                      },
+                      "sessiontimeoutinmins": {
+                        "type": "string",
+                        "description": "sessiontimeoutinmins"
+                      },
+                      "entityimage_url": {
+                        "type": "string",
+                        "description": "entityimage_url"
+                      },
+                      "reportinggroupid": {
+                        "type": "string",
+                        "description": "reportinggroupid"
+                      },
+                      "sqlaccessgroupid": {
+                        "type": "string",
+                        "description": "sqlaccessgroupid"
+                      },
+                      "yammergroupid": {
+                        "type": "string",
+                        "description": "yammergroupid"
+                      },
+                      "yammerpostmethod": {
+                        "type": "string",
+                        "description": "yammerpostmethod"
+                      },
+                      "timezoneruleversionnumber": {
+                        "type": "string",
+                        "description": "timezoneruleversionnumber"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "/WhoAmI()",
+        "operationId": "WhoAmi",
+        "parameters": [],
+        "description": "Returns user details"
+      }
+    },
+    "/api/v9.0/data/whoami": {},
+    "/api/v9.0/data/whoami()": {},
+    "/CloseIncident": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "fullname": {
+                        "type": "string",
+                        "description": "fullname"
+                      },
+                      "systemuserid": {
+                        "type": "string",
+                        "description": "systemuserid"
+                      },
+                      "ownerid": {
+                        "type": "string",
+                        "description": "ownerid"
+                      },
+                      "role2.name": {
+                        "type": "string",
+                        "description": "role2.name"
+                      },
+                      "role2.roleid": {
+                        "type": "string",
+                        "description": "role2.roleid"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "lastname": {
+                        "type": "string",
+                        "description": "lastname"
+                      },
+                      "systemuserid": {
+                        "type": "string",
+                        "description": "systemuserid"
+                      },
+                      "ownerid": {
+                        "type": "string",
+                        "description": "ownerid"
+                      },
+                      "teammembership_association": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "@odata.etag": {
+                              "type": "string",
+                              "description": "@odata.etag"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "name"
+                            },
+                            "teamid": {
+                              "type": "string",
+                              "description": "teamid"
+                            },
+                            "ownerid": {
+                              "type": "string",
+                              "description": "ownerid"
+                            }
+                          }
+                        },
+                        "description": "teammembership_association"
+                      },
+                      "teammembership_association@odata.nextLink": {
+                        "type": "string",
+                        "description": "teammembership_association@odata.nextLink"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "CloseIncident",
+        "operationId": "CloseIncident",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "IncidentResolution": {
+                  "type": "object",
+                  "properties": {
+                    "subject": {
+                      "type": "string",
+                      "description": "subject",
+                      "title": "Subject",
+                      "x-ms-visibility": ""
+                    },
+                    "incidentid@odata.bind": {
+                      "type": "string",
+                      "description": "incidentid",
+                      "title": "Incident Id",
+                      "format": "binary",
+                      "x-ms-visibility": ""
+                    }
+                  },
+                  "description": "IncidentResolution",
+                  "required": [
+                    "incidentid@odata.bind",
+                    "subject"
+                  ]
+                },
+                "Status": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "Status",
+                  "title": "Status",
+                  "x-ms-visibility": "",
+                  "default": "-1"
+                }
+              },
+              "required": [
+                "IncidentResolution",
+                "Status"
+              ]
+            }
+          }
+        ],
+        "description": "Close given case triggering action in D365"
+      }
+    },
+    "/phonecalls": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "string"
+            }
+          }
+        },
+        "summary": "CreateCall",
+        "operationId": "CreateCall",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "subject": {
+                  "type": "string",
+                  "description": "subject"
+                },
+                "scheduledend": {
+                  "type": "string",
+                  "description": "scheduledend"
+                },
+                "regardingobjectid_contact@odata.bind": {
+                  "type": "string",
+                  "description": "regardingobjectid_contact@odata.bind"
+                },
+                "directioncode": {
+                  "type": "boolean",
+                  "description": "directioncode"
+                },
+                "scheduleddurationminutes": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "scheduleddurationminutes"
+                },
+                "phonenumber": {
+                  "type": "string",
+                  "description": "phonenumber"
+                },
+                "phonecall_activity_parties": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "partyid_contact@odata.bind": {
+                        "type": "string",
+                        "description": "partyid_contact@odata.bind"
+                      },
+                      "participationtypemask": {
+                        "type": "string",
+                        "description": "participationtypemask"
+                      },
+                      "partyid_systemuser@odata.bind": {
+                        "type": "string",
+                        "description": "partyid_systemuser@odata.bind"
+                      }
+                    }
+                  },
+                  "description": "phonecall_activity_parties"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Creates a Phone call with parties"
+      }
+    },
+    "/whoami": {},
+    "/annotations": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Add Note",
+        "description": "Add a Note with attachment",
+        "operationId": "AddNote",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "filename": {
+                  "type": "string",
+                  "description": "filename"
+                },
+                "subject": {
+                  "type": "string",
+                  "description": "subject"
+                },
+                "objectid_contact@odata.bind": {
+                  "type": "string",
+                  "description": "objectid_contact@odata.bind"
+                },
+                "documentbody": {
+                  "type": "string",
+                  "description": "documentbody"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "/systemusers": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "fullname": {
+                        "type": "string",
+                        "description": "fullname"
+                      },
+                      "systemuserid": {
+                        "type": "string",
+                        "description": "systemuserid"
+                      },
+                      "ownerid": {
+                        "type": "string",
+                        "description": "ownerid"
+                      },
+                      "role2.name": {
+                        "type": "string",
+                        "description": "role2.name"
+                      },
+                      "role2.roleid": {
+                        "type": "string",
+                        "description": "role2.roleid"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "GetSecGroups",
+        "description": "GetSecGroups",
+        "operationId": "GetSecGroups",
+        "parameters": [
+          {
+            "name": "fetchXml",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/ystemusers()": {},
+    "/systemusers()": {},
+    "/whoami()": {},
+    "/teams": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "name"
+                      },
+                      "teamid": {
+                        "type": "string",
+                        "description": "teamid"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "GetTeams",
+        "description": "Get Teams",
+        "operationId": "GetTeams",
+        "parameters": [
+          {
+            "name": "fetchXml",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/teams({Id})/Microsoft.Dynamics.CRM.AddMembersTeam": {},
+    "/teams({teamId})/Microsoft.Dynamics.CRM.AddMembersTeam": {},
+    "/roles": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "@Microsoft.Dynamics.CRM.fetchxmlpagingcookie": {
+                  "type": "string",
+                  "description": "@Microsoft.Dynamics.CRM.fetchxmlpagingcookie"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "name"
+                      },
+                      "roleid": {
+                        "type": "string",
+                        "description": "roleid"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            },
+            "headers": {
+              "{": {
+                "description": "{",
+                "type": "string"
+              },
+              "\"strict-transport-security\":": {
+                "description": "\"strict-transport-security\":",
+                "type": "string"
+              },
+              "\"content-encoding\":": {
+                "description": "\"content-encoding\":",
+                "type": "string"
+              },
+              "\"vary\":": {
+                "description": "\"vary\":",
+                "type": "string"
+              },
+              "\"x-ms-ratelimit-time-remaining-xrm-requests\":": {
+                "description": "\"x-ms-ratelimit-time-remaining-xrm-requests\":",
+                "type": "string"
+              },
+              "\"x-powered-by\":": {
+                "description": "\"x-powered-by\":",
+                "type": "string"
+              },
+              "\"public\":": {
+                "description": "\"public\":",
+                "type": "string"
+              },
+              "\"req_id\":": {
+                "description": "\"req_id\":",
+                "type": "string"
+              },
+              "\"content-length\":": {
+                "description": "\"content-length\":",
+                "type": "string"
+              },
+              "\"x-ms-ratelimit-burst-remaining-xrm-requests\":": {
+                "description": "\"x-ms-ratelimit-burst-remaining-xrm-requests\":",
+                "type": "string"
+              },
+              "\"odata-version\":": {
+                "description": "\"odata-version\":",
+                "type": "string"
+              },
+              "\"date\":": {
+                "description": "\"date\":",
+                "type": "string"
+              },
+              "\"allow\":": {
+                "description": "\"allow\":",
+                "type": "string"
+              },
+              "\"content-type\":": {
+                "description": "\"content-type\":",
+                "type": "string"
+              },
+              "\"cache-control\":": {
+                "description": "\"cache-control\":",
+                "type": "string"
+              },
+              "\"x-ms-service-request-id\":": {
+                "description": "\"x-ms-service-request-id\":",
+                "type": "string"
+              },
+              "\"authactivityid\":": {
+                "description": "\"authactivityid\":",
+                "type": "string"
+              },
+              "\"expires\":": {
+                "description": "\"expires\":",
+                "type": "string"
+              },
+              "}": {
+                "description": "}",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "summary": "GetAllRoles",
+        "description": "GetAllRoles",
+        "operationId": "GetAllRoles",
+        "parameters": [
+          {
+            "name": "fetchXml",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/systemusers({UserId})/systemuserroles_association/$ref": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "AddRole",
+        "description": "Add a Role",
+        "operationId": "AddRole",
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "URL Of Host",
+                  "title": "URL Of Host",
+                  "x-ms-visibility": "internal",
+                  "default": "https://ccdemo0419.crm.dynamics.com"
+                },
+                "@odata.id": {
+                  "type": "string",
+                  "description": "@odata.id",
+                  "title": "Role ID",
+                  "x-ms-visibility": null
+                }
+              },
+              "required": [
+                "@odata.context",
+                "@odata.id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "/systemusers({UserId}/systemuserroles_association({RoleId})/$ref": {},
+    "/systemusers({UserId})/systemuserroles_association({RoleId})/$ref": {
+      "delete": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Delete Role",
+        "description": "Delete a role from User",
+        "operationId": "DeleteRole",
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "RoleId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/systemusers({UserId})/teammembership_association/$ref": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "AddTeamMember",
+        "operationId": "AddTeamMember",
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context",
+                  "title": "",
+                  "x-ms-visibility": "internal",
+                  "default": "https://ccdemo0419.crm.dynamics.com"
+                },
+                "@odata.id": {
+                  "type": "string",
+                  "description": "@odata.id",
+                  "title": "User Id",
+                  "x-ms-visibility": null
+                }
+              },
+              "required": [
+                "@odata.context",
+                "@odata.id"
+              ]
+            }
+          }
+        ],
+        "description": "AddTeamMember"
+      }
+    },
+    "/systemusers({UserId})/teammembership_association({TeamId})/$ref": {
+      "delete": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Delete Team",
+        "description": "Removes User from Team",
+        "operationId": "DeleteTeam",
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "TeamId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/organizations": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "initialversion": {
+                        "type": "string",
+                        "description": "initialversion"
+                      },
+                      "negativecurrencyformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "negativecurrencyformatcode"
+                      },
+                      "currentkanumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentkanumber"
+                      },
+                      "campaignprefix": {
+                        "type": "string",
+                        "description": "campaignprefix"
+                      },
+                      "maxproductsinbundle": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxproductsinbundle"
+                      },
+                      "versionnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "versionnumber"
+                      },
+                      "discountcalculationmethod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "discountcalculationmethod"
+                      },
+                      "maxfolderbasedtrackingmappings": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxfolderbasedtrackingmappings"
+                      },
+                      "systemuserid": {
+                        "type": "string",
+                        "description": "systemuserid"
+                      },
+                      "minaddressbooksyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minaddressbooksyncinterval"
+                      },
+                      "maxsupportedinternetexplorerversion": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxsupportedinternetexplorerversion"
+                      },
+                      "allowusersseeappdownloadmessage": {
+                        "type": "boolean",
+                        "description": "allowusersseeappdownloadmessage"
+                      },
+                      "showkbarticledeprecationnotification": {
+                        "type": "boolean",
+                        "description": "showkbarticledeprecationnotification"
+                      },
+                      "cascadestatusupdate": {
+                        "type": "boolean",
+                        "description": "cascadestatusupdate"
+                      },
+                      "generatealertsforinformation": {
+                        "type": "boolean",
+                        "description": "generatealertsforinformation"
+                      },
+                      "organizationstate": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "organizationstate"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "name"
+                      },
+                      "trackingtokenidbase": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "trackingtokenidbase"
+                      },
+                      "recurrenceexpansionsynchcreatemax": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionsynchcreatemax"
+                      },
+                      "emailconnectionchannel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "emailconnectionchannel"
+                      },
+                      "maximumentitieswithactivesla": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumentitieswithactivesla"
+                      },
+                      "isfulltextsearchenabled": {
+                        "type": "boolean",
+                        "description": "isfulltextsearchenabled"
+                      },
+                      "suppresssla": {
+                        "type": "boolean",
+                        "description": "suppresssla"
+                      },
+                      "unresolveemailaddressifmultiplematch": {
+                        "type": "boolean",
+                        "description": "unresolveemailaddressifmultiplematch"
+                      },
+                      "kbprefix": {
+                        "type": "string",
+                        "description": "kbprefix"
+                      },
+                      "languagecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "languagecode"
+                      },
+                      "maxverboseloggingsynccycles": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxverboseloggingsynccycles"
+                      },
+                      "defaultrecurrenceendrangetype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "defaultrecurrenceendrangetype"
+                      },
+                      "createproductswithoutparentinactivestate": {
+                        "type": "boolean",
+                        "description": "createproductswithoutparentinactivestate"
+                      },
+                      "allowuserformmodepreference": {
+                        "type": "boolean",
+                        "description": "allowuserformmodepreference"
+                      },
+                      "autoapplydefaultoncaseupdate": {
+                        "type": "boolean",
+                        "description": "autoapplydefaultoncaseupdate"
+                      },
+                      "fiscalperiodformat": {
+                        "type": "string",
+                        "description": "fiscalperiodformat"
+                      },
+                      "ispreviewforemailmonitoringallowed": {
+                        "type": "boolean",
+                        "description": "ispreviewforemailmonitoringallowed"
+                      },
+                      "currentcategorynumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcategorynumber"
+                      },
+                      "enableimmersiveskypeintegration": {
+                        "type": "boolean",
+                        "description": "enableimmersiveskypeintegration"
+                      },
+                      "basecurrencyprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "basecurrencyprecision"
+                      },
+                      "orgdborgsettings": {
+                        "type": "string",
+                        "description": "orgdborgsettings"
+                      },
+                      "currentordernumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentordernumber"
+                      },
+                      "globalhelpurl": {
+                        "type": "string",
+                        "description": "globalhelpurl"
+                      },
+                      "isofficegraphenabled": {
+                        "type": "boolean",
+                        "description": "isofficegraphenabled"
+                      },
+                      "webresourcehash": {
+                        "type": "string",
+                        "description": "webresourcehash"
+                      },
+                      "uniquespecifierlength": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "uniquespecifierlength"
+                      },
+                      "currencydecimalprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencydecimalprecision"
+                      },
+                      "maxconditionsformobileofflinefilters": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxconditionsformobileofflinefilters"
+                      },
+                      "dayssincerecordlastmodifiedmaxvalue": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "dayssincerecordlastmodifiedmaxvalue"
+                      },
+                      "fiscalperiodformatperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalperiodformatperiod"
+                      },
+                      "useinbuiltrulefordefaultpricelistselection": {
+                        "type": "boolean",
+                        "description": "useinbuiltrulefordefaultpricelistselection"
+                      },
+                      "ismobileofflineenabled": {
+                        "type": "boolean",
+                        "description": "ismobileofflineenabled"
+                      },
+                      "socialinsightsenabled": {
+                        "type": "boolean",
+                        "description": "socialinsightsenabled"
+                      },
+                      "allowunresolvedpartiesonemailsend": {
+                        "type": "boolean",
+                        "description": "allowunresolvedpartiesonemailsend"
+                      },
+                      "fiscalyeardisplaycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyeardisplaycode"
+                      },
+                      "servestaticresourcesfromazurecdn": {
+                        "type": "boolean",
+                        "description": "servestaticresourcesfromazurecdn"
+                      },
+                      "isreadauditenabled": {
+                        "type": "boolean",
+                        "description": "isreadauditenabled"
+                      },
+                      "timeformatstring": {
+                        "type": "string",
+                        "description": "timeformatstring"
+                      },
+                      "restrictstatusupdate": {
+                        "type": "boolean",
+                        "description": "restrictstatusupdate"
+                      },
+                      "maximumtrackingnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumtrackingnumber"
+                      },
+                      "maxactionstepsinbpf": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxactionstepsinbpf"
+                      },
+                      "fullnameconventioncode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fullnameconventioncode"
+                      },
+                      "_modifiedby_value": {
+                        "type": "string",
+                        "description": "_modifiedby_value"
+                      },
+                      "enablelivepersonacarduci": {
+                        "type": "boolean",
+                        "description": "enablelivepersonacarduci"
+                      },
+                      "isenabledforallroles": {
+                        "type": "boolean",
+                        "description": "isenabledforallroles"
+                      },
+                      "isbpfentitycustomizationfeatureenabled": {
+                        "type": "boolean",
+                        "description": "isbpfentitycustomizationfeatureenabled"
+                      },
+                      "maxverboseloggingmailbox": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxverboseloggingmailbox"
+                      },
+                      "pinpointlanguagecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pinpointlanguagecode"
+                      },
+                      "businessclosurecalendarid": {
+                        "type": "string",
+                        "description": "businessclosurecalendarid"
+                      },
+                      "cortanaproactiveexperienceenabled": {
+                        "type": "boolean",
+                        "description": "cortanaproactiveexperienceenabled"
+                      },
+                      "isactivityanalysisenabled": {
+                        "type": "boolean",
+                        "description": "isactivityanalysisenabled"
+                      },
+                      "createdon": {
+                        "type": "string",
+                        "description": "createdon"
+                      },
+                      "timeformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "timeformatcode"
+                      },
+                      "numberformat": {
+                        "type": "string",
+                        "description": "numberformat"
+                      },
+                      "requireapprovalforqueueemail": {
+                        "type": "boolean",
+                        "description": "requireapprovalforqueueemail"
+                      },
+                      "isduplicatedetectionenabledforimport": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforimport"
+                      },
+                      "ismailboxforcedunlockingenabled": {
+                        "type": "boolean",
+                        "description": "ismailboxforcedunlockingenabled"
+                      },
+                      "currentcasenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcasenumber"
+                      },
+                      "amdesignator": {
+                        "type": "string",
+                        "description": "amdesignator"
+                      },
+                      "slapausestates": {
+                        "type": "string",
+                        "description": "slapausestates"
+                      },
+                      "mailboxpermanentissueminrange": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mailboxpermanentissueminrange"
+                      },
+                      "ismailboxinactivebackoffenabled": {
+                        "type": "boolean",
+                        "description": "ismailboxinactivebackoffenabled"
+                      },
+                      "enablepricingoncreate": {
+                        "type": "boolean",
+                        "description": "enablepricingoncreate"
+                      },
+                      "isrelationshipinsightsenabled": {
+                        "type": "boolean",
+                        "description": "isrelationshipinsightsenabled"
+                      },
+                      "tagpollingperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tagpollingperiod"
+                      },
+                      "negativeformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "negativeformatcode"
+                      },
+                      "istextwrapenabled": {
+                        "type": "boolean",
+                        "description": "istextwrapenabled"
+                      },
+                      "uselegacyrendering": {
+                        "type": "boolean",
+                        "description": "uselegacyrendering"
+                      },
+                      "tokenexpiry": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tokenexpiry"
+                      },
+                      "ispricelistmandatory": {
+                        "type": "boolean",
+                        "description": "ispricelistmandatory"
+                      },
+                      "bulkoperationprefix": {
+                        "type": "string",
+                        "description": "bulkoperationprefix"
+                      },
+                      "isactionsupportfeatureenabled": {
+                        "type": "boolean",
+                        "description": "isactionsupportfeatureenabled"
+                      },
+                      "currentquotenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentquotenumber"
+                      },
+                      "minoutlooksyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minoutlooksyncinterval"
+                      },
+                      "orderprefix": {
+                        "type": "string",
+                        "description": "orderprefix"
+                      },
+                      "integrationuserid": {
+                        "type": "string",
+                        "description": "integrationuserid"
+                      },
+                      "isonedriveenabled": {
+                        "type": "boolean",
+                        "description": "isonedriveenabled"
+                      },
+                      "displaynavigationtour": {
+                        "type": "boolean",
+                        "description": "displaynavigationtour"
+                      },
+                      "yearstartweekcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "yearstartweekcode"
+                      },
+                      "ishierarchicalsecuritymodelenabled": {
+                        "type": "boolean",
+                        "description": "ishierarchicalsecuritymodelenabled"
+                      },
+                      "enablemicrosoftflowintegration": {
+                        "type": "boolean",
+                        "description": "enablemicrosoftflowintegration"
+                      },
+                      "currentimportsequencenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentimportsequencenumber"
+                      },
+                      "productrecommendationsenabled": {
+                        "type": "boolean",
+                        "description": "productrecommendationsenabled"
+                      },
+                      "useraccessauditinginterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "useraccessauditinginterval"
+                      },
+                      "trackingprefix": {
+                        "type": "string",
+                        "description": "trackingprefix"
+                      },
+                      "allowoutlookscheduledsyncs": {
+                        "type": "boolean",
+                        "description": "allowoutlookscheduledsyncs"
+                      },
+                      "tagmaxaggressivecycles": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "tagmaxaggressivecycles"
+                      },
+                      "plugintracelogsetting": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "plugintracelogsetting"
+                      },
+                      "supportuserid": {
+                        "type": "string",
+                        "description": "supportuserid"
+                      },
+                      "ismsteamscollaborationenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamscollaborationenabled"
+                      },
+                      "currencysymbol": {
+                        "type": "string",
+                        "description": "currencysymbol"
+                      },
+                      "dateseparator": {
+                        "type": "string",
+                        "description": "dateseparator"
+                      },
+                      "resolvesimilarunresolvedemailaddress": {
+                        "type": "boolean",
+                        "description": "resolvesimilarunresolvedemailaddress"
+                      },
+                      "fiscalyearformatyear": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatyear"
+                      },
+                      "ispdfgenerationenabled": {
+                        "type": "string",
+                        "description": "ispdfgenerationenabled"
+                      },
+                      "isfolderbasedtrackingenabled": {
+                        "type": "boolean",
+                        "description": "isfolderbasedtrackingenabled"
+                      },
+                      "disablesocialcare": {
+                        "type": "boolean",
+                        "description": "disablesocialcare"
+                      },
+                      "isquickcreateenabledforopportunityclose": {
+                        "type": "boolean",
+                        "description": "isquickcreateenabledforopportunityclose"
+                      },
+                      "caseprefix": {
+                        "type": "string",
+                        "description": "caseprefix"
+                      },
+                      "currentbulkoperationnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentbulkoperationnumber"
+                      },
+                      "reportscripterrors": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "reportscripterrors"
+                      },
+                      "issopintegrationenabled": {
+                        "type": "boolean",
+                        "description": "issopintegrationenabled"
+                      },
+                      "allowaddressbooksyncs": {
+                        "type": "boolean",
+                        "description": "allowaddressbooksyncs"
+                      },
+                      "nexttrackingnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "nexttrackingnumber"
+                      },
+                      "enablelpauthoring": {
+                        "type": "boolean",
+                        "description": "enablelpauthoring"
+                      },
+                      "pricingdecimalprecision": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pricingdecimalprecision"
+                      },
+                      "allowmarketingemailexecution": {
+                        "type": "boolean",
+                        "description": "allowmarketingemailexecution"
+                      },
+                      "allowlegacydialogsembedding": {
+                        "type": "boolean",
+                        "description": "allowlegacydialogsembedding"
+                      },
+                      "powerbifeatureenabled": {
+                        "type": "boolean",
+                        "description": "powerbifeatureenabled"
+                      },
+                      "maxrecordsforlookupfilters": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxrecordsforlookupfilters"
+                      },
+                      "textanalyticsenabled": {
+                        "type": "boolean",
+                        "description": "textanalyticsenabled"
+                      },
+                      "isauditenabled": {
+                        "type": "boolean",
+                        "description": "isauditenabled"
+                      },
+                      "kaprefix": {
+                        "type": "string",
+                        "description": "kaprefix"
+                      },
+                      "pmdesignator": {
+                        "type": "string",
+                        "description": "pmdesignator"
+                      },
+                      "incomingemailexchangeemailretrievalbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "incomingemailexchangeemailretrievalbatchsize"
+                      },
+                      "parsedtableprefix": {
+                        "type": "string",
+                        "description": "parsedtableprefix"
+                      },
+                      "enablelivepersoncardintegrationinoffice": {
+                        "type": "boolean",
+                        "description": "enablelivepersoncardintegrationinoffice"
+                      },
+                      "rierrorstatus": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "rierrorstatus"
+                      },
+                      "_defaultemailserverprofileid_value": {
+                        "type": "string",
+                        "description": "_defaultemailserverprofileid_value"
+                      },
+                      "isautodatacaptureenabled": {
+                        "type": "boolean",
+                        "description": "isautodatacaptureenabled"
+                      },
+                      "parsedtablecolumnprefix": {
+                        "type": "string",
+                        "description": "parsedtablecolumnprefix"
+                      },
+                      "isappmode": {
+                        "type": "boolean",
+                        "description": "isappmode"
+                      },
+                      "ignoreinternalemail": {
+                        "type": "boolean",
+                        "description": "ignoreinternalemail"
+                      },
+                      "enableunifiedinterfaceshellrefresh": {
+                        "type": "boolean",
+                        "description": "enableunifiedinterfaceshellrefresh"
+                      },
+                      "socialinsightstermsaccepted": {
+                        "type": "boolean",
+                        "description": "socialinsightstermsaccepted"
+                      },
+                      "ismsteamssettingchangedbyuser": {
+                        "type": "boolean",
+                        "description": "ismsteamssettingchangedbyuser"
+                      },
+                      "timeseparator": {
+                        "type": "string",
+                        "description": "timeseparator"
+                      },
+                      "allowentityonlyaudit": {
+                        "type": "boolean",
+                        "description": "allowentityonlyaudit"
+                      },
+                      "recurrenceexpansionjobbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionjobbatchsize"
+                      },
+                      "contractprefix": {
+                        "type": "string",
+                        "description": "contractprefix"
+                      },
+                      "maxdepthforhierarchicalsecuritymodel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxdepthforhierarchicalsecuritymodel"
+                      },
+                      "isduplicatedetectionenabledforonlinecreateupdate": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforonlinecreateupdate"
+                      },
+                      "recurrencedefaultnumberofoccurrences": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrencedefaultnumberofoccurrences"
+                      },
+                      "ismsteamsenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamsenabled"
+                      },
+                      "sessiontimeoutenabled": {
+                        "type": "boolean",
+                        "description": "sessiontimeoutenabled"
+                      },
+                      "allowofflinescheduledsyncs": {
+                        "type": "boolean",
+                        "description": "allowofflinescheduledsyncs"
+                      },
+                      "sharepointdeploymenttype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "sharepointdeploymenttype"
+                      },
+                      "inactivitytimeoutenabled": {
+                        "type": "boolean",
+                        "description": "inactivitytimeoutenabled"
+                      },
+                      "localeid": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "localeid"
+                      },
+                      "ispreviewenabledforactioncard": {
+                        "type": "boolean",
+                        "description": "ispreviewenabledforactioncard"
+                      },
+                      "currencyformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencyformatcode"
+                      },
+                      "ismsteamsusersyncenabled": {
+                        "type": "boolean",
+                        "description": "ismsteamsusersyncenabled"
+                      },
+                      "isappointmentattachmentsyncenabled": {
+                        "type": "boolean",
+                        "description": "isappointmentattachmentsyncenabled"
+                      },
+                      "allowclientmessagebarad": {
+                        "type": "boolean",
+                        "description": "allowclientmessagebarad"
+                      },
+                      "decimalsymbol": {
+                        "type": "string",
+                        "description": "decimalsymbol"
+                      },
+                      "currentkbnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentkbnumber"
+                      },
+                      "fiscalyearformatsuffix": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatsuffix"
+                      },
+                      "mailboxintermittentissueminrange": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mailboxintermittentissueminrange"
+                      },
+                      "isresourcebookingexchangesyncenabled": {
+                        "type": "boolean",
+                        "description": "isresourcebookingexchangesyncenabled"
+                      },
+                      "maximumdynamicpropertiesallowed": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumdynamicpropertiesallowed"
+                      },
+                      "iscontactmailingaddresssyncenabled": {
+                        "type": "boolean",
+                        "description": "iscontactmailingaddresssyncenabled"
+                      },
+                      "defaultemailsettings": {
+                        "type": "string",
+                        "description": "defaultemailsettings"
+                      },
+                      "defaultthemedata": {
+                        "type": "string",
+                        "description": "defaultthemedata"
+                      },
+                      "syncoptinselection": {
+                        "type": "boolean",
+                        "description": "syncoptinselection"
+                      },
+                      "futureexpansionwindow": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "futureexpansionwindow"
+                      },
+                      "isduplicatedetectionenabled": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabled"
+                      },
+                      "isemailmonitoringallowed": {
+                        "type": "boolean",
+                        "description": "isemailmonitoringallowed"
+                      },
+                      "isuseraccessauditenabled": {
+                        "type": "boolean",
+                        "description": "isuseraccessauditenabled"
+                      },
+                      "currentinvoicenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentinvoicenumber"
+                      },
+                      "autoapplydefaultoncasecreate": {
+                        "type": "boolean",
+                        "description": "autoapplydefaultoncasecreate"
+                      },
+                      "expirechangetrackingindays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "expirechangetrackingindays"
+                      },
+                      "autoapplysla": {
+                        "type": "boolean",
+                        "description": "autoapplysla"
+                      },
+                      "syncbulkoperationmaxlimit": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "syncbulkoperationmaxlimit"
+                      },
+                      "isdisabled": {
+                        "type": "boolean",
+                        "description": "isdisabled"
+                      },
+                      "externalpartyentitysettings": {
+                        "type": "string",
+                        "description": "externalpartyentitysettings"
+                      },
+                      "iscustomcontrolsincanvasappsenabled": {
+                        "type": "boolean",
+                        "description": "iscustomcontrolsincanvasappsenabled"
+                      },
+                      "appdesignerexperienceenabled": {
+                        "type": "boolean",
+                        "description": "appdesignerexperienceenabled"
+                      },
+                      "currentcontractnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcontractnumber"
+                      },
+                      "mobileofflineminlicensetrial": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflineminlicensetrial"
+                      },
+                      "allowautounsubscribe": {
+                        "type": "boolean",
+                        "description": "allowautounsubscribe"
+                      },
+                      "fiscalyearformat": {
+                        "type": "string",
+                        "description": "fiscalyearformat"
+                      },
+                      "currentcampaignnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentcampaignnumber"
+                      },
+                      "isluisenabledford365bot": {
+                        "type": "boolean",
+                        "description": "isluisenabledford365bot"
+                      },
+                      "enablebingmapsintegration": {
+                        "type": "boolean",
+                        "description": "enablebingmapsintegration"
+                      },
+                      "dateformatstring": {
+                        "type": "string",
+                        "description": "dateformatstring"
+                      },
+                      "isactioncardenabled": {
+                        "type": "boolean",
+                        "description": "isactioncardenabled"
+                      },
+                      "expiresubscriptionsindays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "expiresubscriptionsindays"
+                      },
+                      "maximumactivebusinessprocessflowsallowedperentity": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumactivebusinessprocessflowsallowedperentity"
+                      },
+                      "ismanualsalesforecastingenabled": {
+                        "type": "boolean",
+                        "description": "ismanualsalesforecastingenabled"
+                      },
+                      "blockedattachments": {
+                        "type": "string",
+                        "description": "blockedattachments"
+                      },
+                      "schemanameprefix": {
+                        "type": "string",
+                        "description": "schemanameprefix"
+                      },
+                      "categoryprefix": {
+                        "type": "string",
+                        "description": "categoryprefix"
+                      },
+                      "isassignedtaskssyncenabled": {
+                        "type": "boolean",
+                        "description": "isassignedtaskssyncenabled"
+                      },
+                      "allowlegacyclientexperience": {
+                        "type": "boolean",
+                        "description": "allowlegacyclientexperience"
+                      },
+                      "sampledataimportid": {
+                        "type": "string",
+                        "description": "sampledataimportid"
+                      },
+                      "numbergroupformat": {
+                        "type": "string",
+                        "description": "numbergroupformat"
+                      },
+                      "emailsendpollingperiod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "emailsendpollingperiod"
+                      },
+                      "allowautoresponsecreation": {
+                        "type": "boolean",
+                        "description": "allowautoresponsecreation"
+                      },
+                      "orginsightsenabled": {
+                        "type": "boolean",
+                        "description": "orginsightsenabled"
+                      },
+                      "getstartedpanecontentenabled": {
+                        "type": "boolean",
+                        "description": "getstartedpanecontentenabled"
+                      },
+                      "emailcorrelationenabled": {
+                        "type": "boolean",
+                        "description": "emailcorrelationenabled"
+                      },
+                      "defaultcrmcustomname": {
+                        "type": "string",
+                        "description": "defaultcrmcustomname"
+                      },
+                      "allowautounsubscribeacknowledgement": {
+                        "type": "boolean",
+                        "description": "allowautounsubscribeacknowledgement"
+                      },
+                      "goalrollupfrequency": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "goalrollupfrequency"
+                      },
+                      "maxuploadfilesize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxuploadfilesize"
+                      },
+                      "privilegeusergroupid": {
+                        "type": "string",
+                        "description": "privilegeusergroupid"
+                      },
+                      "allowwebexcelexport": {
+                        "type": "boolean",
+                        "description": "allowwebexcelexport"
+                      },
+                      "maxappointmentdurationdays": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxappointmentdurationdays"
+                      },
+                      "calendartype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "calendartype"
+                      },
+                      "showweeknumber": {
+                        "type": "boolean",
+                        "description": "showweeknumber"
+                      },
+                      "ispresenceenabled": {
+                        "type": "boolean",
+                        "description": "ispresenceenabled"
+                      },
+                      "enforcereadonlyplugins": {
+                        "type": "boolean",
+                        "description": "enforcereadonlyplugins"
+                      },
+                      "rendersecureiframeforemail": {
+                        "type": "boolean",
+                        "description": "rendersecureiframeforemail"
+                      },
+                      "syncbulkoperationbatchsize": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "syncbulkoperationbatchsize"
+                      },
+                      "isconflictdetectionenabledformobileclient": {
+                        "type": "boolean",
+                        "description": "isconflictdetectionenabledformobileclient"
+                      },
+                      "sharetopreviousowneronassign": {
+                        "type": "boolean",
+                        "description": "sharetopreviousowneronassign"
+                      },
+                      "bounddashboarddefaultcardexpanded": {
+                        "type": "boolean",
+                        "description": "bounddashboarddefaultcardexpanded"
+                      },
+                      "ismobileclientondemandsyncenabled": {
+                        "type": "boolean",
+                        "description": "ismobileclientondemandsyncenabled"
+                      },
+                      "fiscalyearperiodconnect": {
+                        "type": "string",
+                        "description": "fiscalyearperiodconnect"
+                      },
+                      "usepositionhierarchy": {
+                        "type": "boolean",
+                        "description": "usepositionhierarchy"
+                      },
+                      "weekstartdaycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "weekstartdaycode"
+                      },
+                      "isdefaultcountrycodecheckenabled": {
+                        "type": "boolean",
+                        "description": "isdefaultcountrycodecheckenabled"
+                      },
+                      "maximumslakpiperentitywithactivesla": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maximumslakpiperentitywithactivesla"
+                      },
+                      "isfiscalperiodmonthbased": {
+                        "type": "boolean",
+                        "description": "isfiscalperiodmonthbased"
+                      },
+                      "recurrenceexpansionjobbatchinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "recurrenceexpansionjobbatchinterval"
+                      },
+                      "taskbasedflowenabled": {
+                        "type": "boolean",
+                        "description": "taskbasedflowenabled"
+                      },
+                      "longdateformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "longdateformatcode"
+                      },
+                      "numberseparator": {
+                        "type": "string",
+                        "description": "numberseparator"
+                      },
+                      "useskypeprotocol": {
+                        "type": "boolean",
+                        "description": "useskypeprotocol"
+                      },
+                      "pastexpansionwindow": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "pastexpansionwindow"
+                      },
+                      "fiscalyearformatprefix": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalyearformatprefix"
+                      },
+                      "ispaienabled": {
+                        "type": "boolean",
+                        "description": "ispaienabled"
+                      },
+                      "isemailserverprofilecontentfilteringenabled": {
+                        "type": "boolean",
+                        "description": "isemailserverprofilecontentfilteringenabled"
+                      },
+                      "oobpricecalculationenabled": {
+                        "type": "boolean",
+                        "description": "oobpricecalculationenabled"
+                      },
+                      "globalappendurlparametersenabled": {
+                        "type": "boolean",
+                        "description": "globalappendurlparametersenabled"
+                      },
+                      "iscontentsecuritypolicyenabled": {
+                        "type": "boolean",
+                        "description": "iscontentsecuritypolicyenabled"
+                      },
+                      "signupoutlookdownloadfwlink": {
+                        "type": "string",
+                        "description": "signupoutlookdownloadfwlink"
+                      },
+                      "quoteprefix": {
+                        "type": "string",
+                        "description": "quoteprefix"
+                      },
+                      "quickfindrecordlimitenabled": {
+                        "type": "boolean",
+                        "description": "quickfindrecordlimitenabled"
+                      },
+                      "grantaccesstonetworkservice": {
+                        "type": "boolean",
+                        "description": "grantaccesstonetworkservice"
+                      },
+                      "goalrollupexpirytime": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "goalrollupexpirytime"
+                      },
+                      "generatealertsforerrors": {
+                        "type": "boolean",
+                        "description": "generatealertsforerrors"
+                      },
+                      "featureset": {
+                        "type": "string",
+                        "description": "featureset"
+                      },
+                      "mobileofflineminlicenseprod": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflineminlicenseprod"
+                      },
+                      "usereadform": {
+                        "type": "boolean",
+                        "description": "usereadform"
+                      },
+                      "isdelveactionhubintegrationenabled": {
+                        "type": "boolean",
+                        "description": "isdelveactionhubintegrationenabled"
+                      },
+                      "externalpartycorrelationkeys": {
+                        "type": "string",
+                        "description": "externalpartycorrelationkeys"
+                      },
+                      "isdelegateaccessenabled": {
+                        "type": "boolean",
+                        "description": "isdelegateaccessenabled"
+                      },
+                      "_basecurrencyid_value": {
+                        "type": "string",
+                        "description": "_basecurrencyid_value"
+                      },
+                      "generatealertsforwarnings": {
+                        "type": "boolean",
+                        "description": "generatealertsforwarnings"
+                      },
+                      "currentparsedtablenumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currentparsedtablenumber"
+                      },
+                      "appointmentricheditorexperience": {
+                        "type": "boolean",
+                        "description": "appointmentricheditorexperience"
+                      },
+                      "maxrecordsforexporttoexcel": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "maxrecordsforexporttoexcel"
+                      },
+                      "isfolderautocreatedonsp": {
+                        "type": "boolean",
+                        "description": "isfolderautocreatedonsp"
+                      },
+                      "isduplicatedetectionenabledforofflinesync": {
+                        "type": "boolean",
+                        "description": "isduplicatedetectionenabledforofflinesync"
+                      },
+                      "modifiedon": {
+                        "type": "string",
+                        "description": "modifiedon"
+                      },
+                      "isexternalfilestorageenabled": {
+                        "type": "boolean",
+                        "description": "isexternalfilestorageenabled"
+                      },
+                      "trackingtokeniddigits": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "trackingtokeniddigits"
+                      },
+                      "officeappsautodeploymentenabled": {
+                        "type": "boolean",
+                        "description": "officeappsautodeploymentenabled"
+                      },
+                      "fiscalperiodtype": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "fiscalperiodtype"
+                      },
+                      "globalhelpurlenabled": {
+                        "type": "boolean",
+                        "description": "globalhelpurlenabled"
+                      },
+                      "isautosaveenabled": {
+                        "type": "boolean",
+                        "description": "isautosaveenabled"
+                      },
+                      "notifymailboxownerofemailserverlevelalerts": {
+                        "type": "boolean",
+                        "description": "notifymailboxownerofemailserverlevelalerts"
+                      },
+                      "fiscalcalendarstart": {
+                        "type": "string",
+                        "description": "fiscalcalendarstart"
+                      },
+                      "basecurrencysymbol": {
+                        "type": "string",
+                        "description": "basecurrencysymbol"
+                      },
+                      "sqmenabled": {
+                        "type": "boolean",
+                        "description": "sqmenabled"
+                      },
+                      "hashfilterkeywords": {
+                        "type": "string",
+                        "description": "hashfilterkeywords"
+                      },
+                      "organizationid": {
+                        "type": "string",
+                        "description": "organizationid"
+                      },
+                      "mobileofflinesyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "mobileofflinesyncinterval"
+                      },
+                      "minofflinesyncinterval": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "minofflinesyncinterval"
+                      },
+                      "ispreviewforautocaptureenabled": {
+                        "type": "boolean",
+                        "description": "ispreviewforautocaptureenabled"
+                      },
+                      "currencydisplayoption": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "currencydisplayoption"
+                      },
+                      "invoiceprefix": {
+                        "type": "string",
+                        "description": "invoiceprefix"
+                      },
+                      "isexternalsearchindexenabled": {
+                        "type": "boolean",
+                        "description": "isexternalsearchindexenabled"
+                      },
+                      "delegatedadminuserid": {
+                        "type": "string",
+                        "description": "delegatedadminuserid"
+                      },
+                      "highcontrastthemedata": {
+                        "type": "string",
+                        "description": "highcontrastthemedata"
+                      },
+                      "dateformatcode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "dateformatcode"
+                      },
+                      "requireapprovalforuseremail": {
+                        "type": "boolean",
+                        "description": "requireapprovalforuseremail"
+                      },
+                      "widgetproperties": {
+                        "type": "string",
+                        "description": "widgetproperties"
+                      },
+                      "sessiontimeoutreminderinmins": {
+                        "type": "string",
+                        "description": "sessiontimeoutreminderinmins"
+                      },
+                      "privreportinggroupid": {
+                        "type": "string",
+                        "description": "privreportinggroupid"
+                      },
+                      "v3calloutconfighash": {
+                        "type": "string",
+                        "description": "v3calloutconfighash"
+                      },
+                      "hashdeltasubjectcount": {
+                        "type": "string",
+                        "description": "hashdeltasubjectcount"
+                      },
+                      "officegraphdelveurl": {
+                        "type": "string",
+                        "description": "officegraphdelveurl"
+                      },
+                      "postmessagewhitelistdomains": {
+                        "type": "string",
+                        "description": "postmessagewhitelistdomains"
+                      },
+                      "contentsecuritypolicyconfiguration": {
+                        "type": "string",
+                        "description": "contentsecuritypolicyconfiguration"
+                      },
+                      "tokenkey": {
+                        "type": "string",
+                        "description": "tokenkey"
+                      },
+                      "entityimageid": {
+                        "type": "string",
+                        "description": "entityimageid"
+                      },
+                      "yammernetworkpermalink": {
+                        "type": "string",
+                        "description": "yammernetworkpermalink"
+                      },
+                      "picture": {
+                        "type": "string",
+                        "description": "picture"
+                      },
+                      "azureschedulerjobcollectionname": {
+                        "type": "string",
+                        "description": "azureschedulerjobcollectionname"
+                      },
+                      "_createdby_value": {
+                        "type": "string",
+                        "description": "_createdby_value"
+                      },
+                      "bingmapsapikey": {
+                        "type": "string",
+                        "description": "bingmapsapikey"
+                      },
+                      "syncoptinselectionstatus": {
+                        "type": "string",
+                        "description": "syncoptinselectionstatus"
+                      },
+                      "socialinsightsinstance": {
+                        "type": "string",
+                        "description": "socialinsightsinstance"
+                      },
+                      "privacystatementurl": {
+                        "type": "string",
+                        "description": "privacystatementurl"
+                      },
+                      "clientfeatureset": {
+                        "type": "string",
+                        "description": "clientfeatureset"
+                      },
+                      "utcconversiontimezonecode": {
+                        "type": "string",
+                        "description": "utcconversiontimezonecode"
+                      },
+                      "sqlaccessgroupname": {
+                        "type": "string",
+                        "description": "sqlaccessgroupname"
+                      },
+                      "kmsettings": {
+                        "type": "string",
+                        "description": "kmsettings"
+                      },
+                      "hashminaddresscount": {
+                        "type": "string",
+                        "description": "hashminaddresscount"
+                      },
+                      "inactivitytimeoutinmins": {
+                        "type": "string",
+                        "description": "inactivitytimeoutinmins"
+                      },
+                      "externalbaseurl": {
+                        "type": "string",
+                        "description": "externalbaseurl"
+                      },
+                      "_defaultmobileofflineprofileid_value": {
+                        "type": "string",
+                        "description": "_defaultmobileofflineprofileid_value"
+                      },
+                      "hashmaxcount": {
+                        "type": "string",
+                        "description": "hashmaxcount"
+                      },
+                      "reportinggroupname": {
+                        "type": "string",
+                        "description": "reportinggroupname"
+                      },
+                      "aciwebendpointurl": {
+                        "type": "string",
+                        "description": "aciwebendpointurl"
+                      },
+                      "_modifiedonbehalfby_value": {
+                        "type": "string",
+                        "description": "_modifiedonbehalfby_value"
+                      },
+                      "yammeroauthaccesstokenexpired": {
+                        "type": "string",
+                        "description": "yammeroauthaccesstokenexpired"
+                      },
+                      "defaultcountrycode": {
+                        "type": "string",
+                        "description": "defaultcountrycode"
+                      },
+                      "isnotesanalysisenabled": {
+                        "type": "string",
+                        "description": "isnotesanalysisenabled"
+                      },
+                      "usergroupid": {
+                        "type": "string",
+                        "description": "usergroupid"
+                      },
+                      "microsoftflowenvironment": {
+                        "type": "string",
+                        "description": "microsoftflowenvironment"
+                      },
+                      "_acknowledgementtemplateid_value": {
+                        "type": "string",
+                        "description": "_acknowledgementtemplateid_value"
+                      },
+                      "entityimage": {
+                        "type": "string",
+                        "description": "entityimage"
+                      },
+                      "entityimage_timestamp": {
+                        "type": "string",
+                        "description": "entityimage_timestamp"
+                      },
+                      "privreportinggroupname": {
+                        "type": "string",
+                        "description": "privreportinggroupname"
+                      },
+                      "inactivitytimeoutreminderinmins": {
+                        "type": "string",
+                        "description": "inactivitytimeoutreminderinmins"
+                      },
+                      "disabledreason": {
+                        "type": "string",
+                        "description": "disabledreason"
+                      },
+                      "_createdonbehalfby_value": {
+                        "type": "string",
+                        "description": "_createdonbehalfby_value"
+                      },
+                      "schedulingengine": {
+                        "type": "string",
+                        "description": "schedulingengine"
+                      },
+                      "enablesmartmatching": {
+                        "type": "string",
+                        "description": "enablesmartmatching"
+                      },
+                      "sortid": {
+                        "type": "string",
+                        "description": "sortid"
+                      },
+                      "sessiontimeoutinmins": {
+                        "type": "string",
+                        "description": "sessiontimeoutinmins"
+                      },
+                      "entityimage_url": {
+                        "type": "string",
+                        "description": "entityimage_url"
+                      },
+                      "reportinggroupid": {
+                        "type": "string",
+                        "description": "reportinggroupid"
+                      },
+                      "sqlaccessgroupid": {
+                        "type": "string",
+                        "description": "sqlaccessgroupid"
+                      },
+                      "yammergroupid": {
+                        "type": "string",
+                        "description": "yammergroupid"
+                      },
+                      "yammerpostmethod": {
+                        "type": "string",
+                        "description": "yammerpostmethod"
+                      },
+                      "timezoneruleversionnumber": {
+                        "type": "string",
+                        "description": "timezoneruleversionnumber"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "GetOrgSettings",
+        "operationId": "GetOrgSettings",
+        "description": "GetOrgSettings",
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2_auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+      "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {}
+    }
+  },
+  "security": [
+    {
+      "oauth2_auth": []
+    }
+  ],
+  "tags": []
+}
