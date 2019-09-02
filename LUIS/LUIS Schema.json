@@ -1,0 +1,935 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "UtilitiesService",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Account closure"
+    },
+    {
+      "name": "Billing enquiry"
+    },
+    {
+      "name": "Change of details"
+    },
+    {
+      "name": "Next Bill due"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Report a meter reading"
+    },
+    {
+      "name": "Report a problem"
+    }
+  ],
+  "entities": [
+    {
+      "name": "customerName",
+      "roles": []
+    },
+    {
+      "name": "ourName",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "email",
+      "roles": [
+        "email address"
+      ]
+    },
+    {
+      "name": "number",
+      "roles": [
+        "meter reading"
+      ]
+    },
+    {
+      "name": "phonenumber",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "as requested, here my meter reading for today",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "can i show you my stereo?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you close my account?",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "can you help me transfer my account?",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "can you let me know when my bill is due?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "can you let me know when my next statement is due?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "can you please help me with my latest account statement?",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "can you please re-send my bill?",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "can you send someone out, my power is cut since 3am",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "can you tell me when my bill is due?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "dear bigpowerco, can i change my email please?",
+      "intent": "Change of details",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "dear power co, following my last invoice i am provided an updated meter reading, this is attached. kind regards, james",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 12
+        },
+        {
+          "entity": "customerName",
+          "startPos": 113,
+          "endPos": 117
+        }
+      ]
+    },
+    {
+      "text": "dear power company, my power has been cut since yesterday, please reconnect me! i have paid my bill! thanks, carl.",
+      "intent": "Report a problem",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 17
+        },
+        {
+          "entity": "customerName",
+          "startPos": 109,
+          "endPos": 112
+        }
+      ]
+    },
+    {
+      "text": "dear powerco, i have a meter reading",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "dear powerco, i read my meter this mornign and it said 445566, thanks, james.",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 11
+        },
+        {
+          "entity": "customerName",
+          "startPos": 71,
+          "endPos": 75
+        }
+      ]
+    },
+    {
+      "text": "dear powerco, please stop sending me the wrong bill, i'm not going to pay it!!! regards, james",
+      "intent": "Billing enquiry",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 11
+        },
+        {
+          "entity": "customerName",
+          "startPos": 89,
+          "endPos": 93
+        }
+      ]
+    },
+    {
+      "text": "dear powercomapanee, please let me know when i have to pay the next bill? cheers, carl",
+      "intent": "Next Bill due",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 5,
+          "endPos": 18
+        },
+        {
+          "entity": "customerName",
+          "startPos": 82,
+          "endPos": 85
+        }
+      ]
+    },
+    {
+      "text": "has my bill been sent? cheers, johnny.",
+      "intent": "Next Bill due",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 31,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "have you read today's news?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello big energy co, i need to know when my next bill must be paid, thanks james",
+      "intent": "Next Bill due",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 18
+        },
+        {
+          "entity": "customerName",
+          "startPos": 75,
+          "endPos": 79
+        }
+      ]
+    },
+    {
+      "text": "hello bigpowerco, i'd like to change my tariff please. thanks, james",
+      "intent": "Billing enquiry",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 15
+        },
+        {
+          "entity": "customerName",
+          "startPos": 63,
+          "endPos": 67
+        }
+      ]
+    },
+    {
+      "text": "hello bipowerco, once again the power's out today, i am sick of this happening! please fix it. kind regards, susan.",
+      "intent": "Report a problem",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "hello power co, we moved on the weekend, can i update my address? thanks johnny",
+      "intent": "Account closure",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 13
+        },
+        {
+          "entity": "customerName",
+          "startPos": 73,
+          "endPos": 78
+        }
+      ]
+    },
+    {
+      "text": "hello there, i have checked my meter yesterday and it said 332211, cheers",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "hello there, i have some questions about my last bill, can you please help me?",
+      "intent": "Billing enquiry",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "hello, i would like my account cancelled please. kind regards james",
+      "intent": "Account closure",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 62,
+          "endPos": 66
+        }
+      ]
+    },
+    {
+      "text": "hello, there is no power at my flat this morning, please send someone to fix it asap!",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "hey can you send me the bill again?",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "hey powerco, as of today my meter reads 65432. cheers barry",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 4,
+          "endPos": 10
+        },
+        {
+          "entity": "customerName",
+          "startPos": 54,
+          "endPos": 58
+        }
+      ]
+    },
+    {
+      "text": "hi 33434 is my reading",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "hi accounts team, can you assist in closing my account?",
+      "intent": "Account closure",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 3,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "hi bigpowerco, i'd like to update my email to james@james.com straight away. kind regards james",
+      "intent": "Change of details",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 3,
+          "endPos": 12
+        },
+        {
+          "entity": "customerName",
+          "startPos": 90,
+          "endPos": 94
+        }
+      ]
+    },
+    {
+      "text": "hi i am moving house next week. new address battams lane jamestown aussie",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "hi i am moving house, can you tell me if i can get electricity in my new home? regards",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "hi i have just checked my meter and the number is 123456789",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "hi my meter reading is 1234567890",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "hi please can you close my account regards",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "hi powerco, my meter reading is attached, thanks terry",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 3,
+          "endPos": 9
+        },
+        {
+          "entity": "customerName",
+          "startPos": 49,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "hi there power co, i have attached a picture of my power meter. thanks!",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 3,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "hi there, please change my email address to nope@nope.co.uk thanks!",
+      "intent": "Change of details",
+      "entities": [
+        {
+          "entity": "ourName",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "hi, i have moved to a new address so i no longer need my electrictiy service. please cancel it. thank you, james.",
+      "intent": "Account closure",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 107,
+          "endPos": 111
+        }
+      ]
+    },
+    {
+      "text": "hi, im having problems with my power cutting twice a day, can i get someone out to have a look at it? thanks",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "hi, its that time agian so my updated meter is 55447",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "hi, please let me know when ym next bill is due to be issued? thanks james",
+      "intent": "Next Bill due",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 69,
+          "endPos": 73
+        }
+      ]
+    },
+    {
+      "text": "hi, the power is out at my house, could you please dispatch an engineer to take a look? thanks!",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "how can i pay my account?",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i am moving house soon, please let me know how to get my account switched over? cheers wanda",
+      "intent": "Account closure",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 87,
+          "endPos": 91
+        }
+      ]
+    },
+    {
+      "text": "i believe i can fly",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i can’t find my car, can you help me find it?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i didn't receive my last bill",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i do not like green eggs and ham",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i hate it when it rains",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have a new email address",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i have a question about my bill",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i have a question aobut my most recent bill, can you help?",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i have an issue with my power",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "i have been experiencing problems with my power",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "i have been overcharged",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i have been sent the wrong invoice",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i have changed phone number to 07765 543210",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i have moved to a new house",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i have no electricity, can you turn it back on?",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "i love japanese food",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to close this account",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i need to move house can you please cancel my service?",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i no longer live at this property",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i no longer require electricity from your company",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i owuld like to provide my updated meter, its 987445",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "i think my electricty has stopped",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "i want my email address updated",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i want to cancel my account",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i want to cancel my service",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i want to change my contact details",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i want to close account",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i want to close my accounts thankyou",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i want to pay my account",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "i want to provide a new email address",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i want to report my meter reading",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "i want to transfer my service",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i will be moving soon, can we transfer my account please?",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i would like to update my phone number",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "i'd like 3 burritos please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm changing house, what do i need to move my account to a new address",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "i'm experiencing difficulty with my electricity",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "i'm having trouble with my power",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "is my bill due? please confirm asap. thanks, james",
+      "intent": "Next Bill due",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 45,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "my bill is in error",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "my bill is incorrect sent from my iphone",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "my bill is wrong",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "my electricity isn't connected",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "my email address is james@james.com",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "my latest meter reading is 12345",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "my meter is broken sent from my iphone",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "my meter reading is 33445",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "my meter reading is 443322",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "my meter reads 55667",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "my meter says 87654",
+      "intent": "Report a meter reading",
+      "entities": []
+    },
+    {
+      "text": "my new phone number is 123-456-7890",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "my phone number has changed",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "my phone number has changed to 07755 554 332",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "my phone number is +447401732834 sent from my iphone",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "my power doesn't work",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "my power has been cut!!",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "my power is cut!!! please fix it straight away!",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "my power is disconnected",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "please can i give you a meter reading? thanks carl",
+      "intent": "Report a meter reading",
+      "entities": [
+        {
+          "entity": "customerName",
+          "startPos": 46,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "please correct my last invoice. i was charged dubble. kr. sven",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "please disconnect my electricity supply",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "please disconnect my electricty",
+      "intent": "Account closure",
+      "entities": []
+    },
+    {
+      "text": "please email me on a new address",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "please reissue my last invoice",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "please re-send my latest bill",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "please stop sending me the wrong bill!",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "please update my credit card number on file sent from my iphone",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "please update my email address",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "please update my telephone number",
+      "intent": "Change of details",
+      "entities": []
+    },
+    {
+      "text": "resend my last invoice please",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "something is broken with my power",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "something is wrong with my power supply",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "something's wrong with my connection",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "the sky is blue",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "there is a fault with my electricity",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "there is a problem with my latest invoice",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "there is an issue with my connection",
+      "intent": "Report a problem",
+      "entities": []
+    },
+    {
+      "text": "there's an issue with my bill",
+      "intent": "Billing enquiry",
+      "entities": []
+    },
+    {
+      "text": "we are stronger together",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when do i get my next statement?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "when do i next need to pay you?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "when is a duck?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when is my next bill?",
+      "intent": "Next Bill due",
+      "entities": []
+    },
+    {
+      "text": "when will me next statement need to be paid by?",
+      "intent": "Next Bill due",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
