@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{4a7b2840-5e22-ea11-a810-000d3a86b0b8}" Name="Http -&gt; Initialize variable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Http-Initializevariable-4A7B2840-5E22-EA11-A810-000D3A86B0B8.json</JsonFileName>
+<Workflow WorkflowId="{4a7b2840-5e22-ea11-a810-000d3a86b0b8}" Name="Freezer Log" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/FreezerLog-4A7B2840-5E22-EA11-A810-000D3A86B0B8.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -20,6 +20,6 @@
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Http -&gt; Initialize variable" />
+    <LocalizedName languagecode="1033" description="Freezer Log" />
   </LocalizedNames>
 </Workflow>
