@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{dc036f09-4135-ea11-a813-000d3a0b6d42}" Name="Show / Hide Approval" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ShowHideApproval-DC036F09-4135-EA11-A813-000D3A0B6D42.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <PrimaryEntity>cc_MyThing</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Show / Hide Approval" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{d7338edb-5266-40bd-9d1c-a51275c3e466}">
+      <label languagecode="1033" description="Please fill this in" />
+    </steplabels>
+    <steplabels id="{a135cf5c-968d-4236-9892-bded1d13eccf}">
+      <label languagecode="1033" description="Just showing you a recommendation" />
+    </steplabels>
+    <steplabels id="{9a9fd9cf-a624-4607-9921-578413caac4e}">
+      <label languagecode="1033" description="recommendation details" />
+    </steplabels>
+  </labels>
+</Workflow>

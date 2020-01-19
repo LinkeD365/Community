@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a03e095e-7338-ea11-a813-000d3a0b6d42}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cc_name" select="1" icon="1" preview="1">
+        <row name="result" id="cc_mythingid">
+          <cell name="cc_name" width="140" />
+          <cell name="statuscode" width="100" />
+          <cell name="cc_approver" width="100" />
+          <cell name="cc_approvallog" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cc_mything">
+          <attribute name="cc_name" />
+          <attribute name="cc_mythingid" />
+          <attribute name="statuscode" />
+          <attribute name="cc_approver" />
+          <attribute name="cc_approvallog" />
+          <order attribute="cc_name" descending="true" />
+          <order attribute="statuscode" descending="true" />
+          <filter type="and">
+            <condition attribute="cc_approver" operator="eq-userid" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Things to Approve" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
