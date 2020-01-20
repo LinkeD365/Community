@@ -3,6 +3,7 @@
   <EntityRelationship Name="business_unit_cc_mything" />
   <EntityRelationship Name="cc_MyThing_Approver_SystemUser" />
   <EntityRelationship Name="cc_MyThing_cc_MyThing_Account" />
+  <EntityRelationship Name="cc_MyThing_cc_MyThing_Contact" />
   <EntityRelationship Name="lk_cc_mything_createdby" />
   <EntityRelationship Name="lk_cc_mything_modifiedby" />
   <EntityRelationship Name="msdyn_account_account_BillingAccount" />

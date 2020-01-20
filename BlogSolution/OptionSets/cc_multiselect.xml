@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cc_multiselect" localizedName="Multiselect" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Multiselect" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="948120000">
+      <labels>
+        <label description="Choice 1" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948120001">
+      <labels>
+        <label description="Choice 2" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948120002">
+      <labels>
+        <label description="Choice 3" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948120003">
+      <labels>
+        <label description="New option" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
