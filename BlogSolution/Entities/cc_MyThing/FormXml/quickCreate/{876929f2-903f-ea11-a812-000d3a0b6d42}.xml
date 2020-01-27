@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{876929f2-903f-ea11-a812-000d3a0b6d42}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{7943d68a-e65c-4199-8dc3-bde194af7f40}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{108590ef-d24e-40ce-b61d-16c4ccbe7061}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13e27d1d-04cb-4a08-b582-899517d61756}" showlabel="true" locklevel="0" labelid="{bcf5acd3-8799-45dc-8ab4-f5d93cacc45e}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cc_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cc_account" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{5804a8a1-8ae2-4362-91d4-6dfb10e10901}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{615f3ed2-8066-4507-9d74-9c38c0fc8a74}" showlabel="true" locklevel="0" labelid="{55ccd7bc-78f5-4b89-b402-daeba628e5aa}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cc_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cc_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14ee81e2-7abc-4891-a774-3ad80ea22b97}" showlabel="true" locklevel="0" labelid="{3fe3645f-0f10-44b3-9219-84e081b111a7}">
+                        <labels>
+                          <label description="email" languagecode="1033" />
+                        </labels>
+                        <control id="cc_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cc_email" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{4260d2ec-71cc-4223-9359-356134389cde}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8c4cf4e6-bff4-4b3d-89f6-f07db2cd9fe2}" showlabel="true" locklevel="0" labelid="{c86f1540-99ba-44a8-853d-e5c5defc9fa6}">
+                        <labels>
+                          <label description="number" languagecode="1033" />
+                        </labels>
+                        <control id="cc_number" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cc_number" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description=" quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

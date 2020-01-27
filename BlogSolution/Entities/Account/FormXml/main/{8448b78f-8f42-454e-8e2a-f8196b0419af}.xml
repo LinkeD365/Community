@@ -146,6 +146,44 @@
                     <row />
                   </rows>
                 </section>
+                <section name="SUMMARY_TAB_section_8" id="1d2b8911-14e9-4e78-ae15-c8309a631143" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1111" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{1a7fed6d-f8e3-4017-a89c-c070756ff033}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1579969835551" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>cc_mything</TargetEntityType>
+                            <ViewId>{26C8FABA-7BAD-4599-9782-DE598290B28C}</ViewId>
+                            <ViewIds>{26C8FABA-7BAD-4599-9782-DE598290B28C}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>cc_Account_Account_cc_MyThing</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{2a579c7d-03d0-4f8d-8be7-034735e79dab}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{29668927-2d9f-46c7-959c-34d0ba782eb3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{0a1ee6ce-6d69-4837-ab0e-ded9d2c09bb5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
             <column width="42%">
@@ -295,6 +333,19 @@
                     <row />
                     <row />
                     <row />
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{8556327f-8c7b-45f9-ad57-ef8a5e0c5604}">
+                        <labels>
+                          <label description="New QV control 1579969822678" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1579969822678" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cc_mything" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="cc_mything"&gt;62f39293-2893-45bc-b075-a18516ee5526&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -2310,7 +2361,7 @@
         <Library name="msdyn_/Account/Account.Library.js" libraryUniqueId="{d8db2d05-4b38-9935-cedb-cdacb9e65d75}" />
       </formLibraries>
       <footer id="{d99ef311-ed96-4532-bb5e-f96dea729170}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
-        <rows></rows>
+        <rows />
       </footer>
     </form>
     <LocalizedNames>

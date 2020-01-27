@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="business_unit_cc_mything" />
+  <EntityRelationship Name="cc_Account_Account_cc_MyThing" />
   <EntityRelationship Name="cc_MyThing_Approver_SystemUser" />
   <EntityRelationship Name="cc_MyThing_cc_MyThing_Account" />
   <EntityRelationship Name="cc_MyThing_cc_MyThing_Contact" />

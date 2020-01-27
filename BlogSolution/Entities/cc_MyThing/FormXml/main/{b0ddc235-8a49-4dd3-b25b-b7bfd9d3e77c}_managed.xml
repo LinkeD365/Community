@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form headerdensity="Low">
       <tabs>
         <tab verticallayout="true" id="{b4a72640-773d-4046-8c60-6a9694b04acb}" IsUserDefined="1">
           <labels>
@@ -52,11 +52,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ccd39123-8857-47f9-9061-7e29a6e17607}" showlabel="true" locklevel="0">
+                      <cell id="{ccd39123-8857-47f9-9061-7e29a6e17607}" showlabel="true" locklevel="0" auto="true">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                         <control id="cc_approvallog" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cc_approvallog" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f085b7d-3146-4386-b834-a1e37551cffc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cc_number" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cc_number" disabled="false" uniqueid="{a23a5c54-05d1-442b-87f9-743fd272d65a}" />
                       </cell>
                     </row>
                   </rows>
@@ -102,6 +110,98 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_2" id="3f22eb87-92da-413d-a0f2-20cc7714beca" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="6600e215-965f-4ae5-a6ca-89733f6764c1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{dce33a75-970b-4d9e-9393-5ff5f2f8bce0}">
+                        <labels>
+                          <label description="New QV control 1579446595981" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1579446595981" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cc_approver" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="systemuser"&gt;c68d6c09-d7a7-4959-8d0f-44b8cff9b452&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{e585cc6e-6100-46a4-b227-3061f2b8bb15}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_4" id="790392a8-e92f-4c65-b2a9-17ff155bdd4a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1111" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dcd4af04-b78e-41b5-87ed-c34f0b07bd30}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                      <cell id="{927e6adc-4168-4dd2-890b-a7686b9ffd13}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{3a9c7580-0b81-47c2-858e-a7865f8ff631}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{78e5db0a-8c0f-4e42-8583-8f4c14cdfbcd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_3" id="70afbf61-a91e-4ee4-89c9-773747ceec31" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{efa2dde0-c926-44d1-8f34-d133041c4983}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1579446794554" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <ViewId>{00000000-0000-0000-00AA-000010001004}</ViewId>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001003},{00000000-0000-0000-00AA-000010001004}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>cc_MyThing_cc_MyThing_Contact</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{32e65287-fc3b-482a-8843-6b65fef8ead1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
@@ -120,6 +220,36 @@
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
+            </cell>
+            <cell id="{44d936bf-5f8b-4ff0-8906-56d919db3eff}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_cc_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cc_email" disabled="false" />
+            </cell>
+            <cell id="{93fd0b66-11e6-44ce-8bc7-cb2819009606}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{6cf9dad4-3c0f-436a-b12e-efe96e18693b}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_cc_approver" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cc_approver" disabled="false" />
+            </cell>
+            <cell id="{376e973a-8cb9-486f-9fb4-7ddb1bd1e1e6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{f0a5e8ed-4a33-4386-bbfe-9b2423455b1e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
             </cell>
           </row>
         </rows>
@@ -146,6 +276,39 @@
         </rows>
       </footer>
       <DisplayConditions Order="0" FallbackForm="true" />
+      <controlDescriptions>
+        <controlDescription forControl="{a23a5c54-05d1-442b-87f9-743fd272d65a}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>cc_number</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Knob.ArcKnobControl">
+            <parameters>
+              <value>cc_number</value>
+              <min type="Whole.None" static="true">0</min>
+              <max type="Whole.None" static="true">100</max>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Knob.ArcKnobControl">
+            <parameters>
+              <value>cc_number</value>
+              <min type="Whole.None" static="true">0</min>
+              <max type="Whole.None" static="true">100</max>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Knob.ArcKnobControl">
+            <parameters>
+              <value>cc_number</value>
+              <min type="Whole.None" static="true">0</min>
+              <max type="Whole.None" static="true">100</max>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
