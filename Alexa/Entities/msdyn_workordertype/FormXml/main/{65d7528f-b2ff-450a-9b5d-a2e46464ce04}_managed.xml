@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{65d7528f-b2ff-450a-9b5d-a2e46464ce04}</formid>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{f9e21faf-fdca-4c3a-ac64-b5713c281634}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" showlabel="true" showbar="false" locklevel="0" id="{85b21631-69b8-b55e-85d5-35e75474b7d8}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="160" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{0619c07b-d62c-7a2e-c629-96497c66756e}" showlabel="false" ordinalvalue="20003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{98f239f6-cc6b-4250-a0ba-b1c68ed06310}" showlabel="true" locklevel="0" ordinalvalue="20003" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cc_alexaintent" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cc_alexaintent" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_details" id="{0079171b-46b4-171a-66b5-74623e1b148b}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" visible="false" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0" />
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{96341e95-6aea-4606-aa90-b411e07f4e90}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{41722c0c-0804-4db5-92ad-425749573e9b}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b4751d2e-a45d-43ad-9752-12c14fed744e}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f29d0a86-eeb0-49ef-9874-0fbc598686f8}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
