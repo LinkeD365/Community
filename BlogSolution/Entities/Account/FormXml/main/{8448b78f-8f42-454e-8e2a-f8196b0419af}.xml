@@ -801,6 +801,48 @@
                 </section>
               </sections>
             </column>
+            <column width="100%">
+              <sections>
+                <section name="documents_sharepoint_section" showlabel="false" showbar="false" locklevel="0" id="{92cb1722-c15b-0808-bab8-bb95b133b7ab}" IsUserDefined="0" layout="varwidth" columns="1">
+                  <labels>
+                    <label description="Documents Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{347ca1eb-2368-90d8-bd83-e49816706138}" showlabel="false" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Documents" languagecode="1033" />
+                        </labels>
+                        <control id="DocumentsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9cd66b5c-8b7a-6433-c5a5-46a7245dd534}">
+                          <parameters>
+                            <ViewId>{0016F9F3-41CC-4276-9D11-04308D15858D}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>Account_SharepointDocument</RelationshipName>
+                            <TargetEntityType>sharepointdocument</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds />
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
           </columns>
         </tab>
       </tabs>
