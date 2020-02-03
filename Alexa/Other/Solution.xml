@@ -79,7 +79,6 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="msdyn_workordertype" behavior="1" />
-      <RootComponent type="29" id="{b1455ca0-08cb-e911-a830-000d3a34e879}" behavior="0" />
       <RootComponent type="29" id="{b2455ca0-08cb-e911-a830-000d3a34e879}" behavior="0" />
       <RootComponent type="29" id="{b3455ca0-08cb-e911-a830-000d3a34e879}" behavior="0" />
       <RootComponent type="60" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" behavior="0" />
