@@ -9,7 +9,9 @@
   <EntityRelationships />
   <OrganizationSettings />
   <optionsets />
+  <Dashboards />
   <InteractionCentricDashboards />
+  <WebResources />
   <CustomControls />
   <AppModuleSiteMaps />
   <AppModules />

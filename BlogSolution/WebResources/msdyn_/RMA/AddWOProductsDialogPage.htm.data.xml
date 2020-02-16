@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{4ca02fd0-1626-e311-974a-00155da8fa1b}</WebResourceId>
+  <Name>msdyn_/RMA/AddWOProductsDialogPage.htm</Name>
+  <DisplayName>AddWOProductsDialogPage.htm (Deprecated in v8.0)</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="msdyn_/LocalizationLibrary/Localization.Library.js" displayName="Localization.Library.js" languagecode="" description="" libraryUniqueId="{4b3e4364-5332-9a37-1b5e-41419dc6127c}"/&gt;&lt;Library name="msdyn_/fps/Utils/FpsUtils.js" displayName="FpsUtils.js" languagecode="" description="" libraryUniqueId="{2b1dd850-58ab-8e39-5b9e-c2ba89605745}"/&gt;&lt;Library name="msdyn_/fps/LocalizationLibrary/Localization.Library.js" displayName="Localization.Library.js" languagecode="" description="" libraryUniqueId="{a7347748-25a6-0796-c79a-4e0e5b814e33}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <FileName>/WebResources/msdyn_RMAAddWOProductsDialogPagehtm4CA02FD0-1626-E311-974A-00155DA8FA1B</FileName>
+</WebResource>
