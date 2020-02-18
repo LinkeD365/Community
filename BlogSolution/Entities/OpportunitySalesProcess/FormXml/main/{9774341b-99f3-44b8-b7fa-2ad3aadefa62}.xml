@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9774341b-99f3-44b8-b7fa-2ad3aadefa62}</formid>
+    <IntroducedVersion>8.2.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6b9ce798-221a-4260-90b2-2a95ed51a5bc}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{91405396-1d34-407c-90dd-f4d461e0f088}">
+          <labels>
+            <label description="Qualify" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6b9ce798-221a-4260-90b2-2a95ed51a5bc}" name="StageStep3_section1" labelid="{dcf45ecd-e45e-4710-ae7e-9146381a41df}">
+                  <labels>
+                    <label description="Qualify" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6a08cd33-eb33-450e-ab76-5036b1d47dcd}" showlabel="true" visible="true" labelid="{cb95e967-4b71-4cc5-b4d3-734cdcde9b93}">
+                        <labels>
+                          <label description="Identify Contact" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:parentcontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="parentcontactid" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db34722c-7eb7-4c5c-b141-3e6695953d53}" showlabel="true" visible="true" labelid="{b4038cb2-dfe7-47b4-9947-526b545b196a}">
+                        <labels>
+                          <label description="Identify Account" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:parentaccountid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="parentaccountid" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5d16833-ecf9-4ab6-a35f-02f7e43e8fdd}" showlabel="true" visible="true" labelid="{3b182cb3-e0e8-47cc-8f4e-5c57995b0389}">
+                        <labels>
+                          <label description="Purchase Timeframe" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a18e18b2-8a85-4f2e-96ca-72745e7e73bc}" showlabel="true" visible="true" labelid="{42199e36-4431-43ac-902b-678984d206f2}">
+                        <labels>
+                          <label description="Estimated Budget" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04f11eb9-679f-4fe2-8687-659e49edc946}" showlabel="true" visible="true" labelid="{f094255d-e91b-479c-887f-72140f3d8d05}">
+                        <labels>
+                          <label description="Purchase Process" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{855e21ca-fb4d-43b7-bd18-9c75cd8ff603}" showlabel="true" visible="true" labelid="{86a45a98-baff-41b4-bfe1-e028d0f86d43}">
+                        <labels>
+                          <label description="Identify Decision Maker" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:decisionmaker" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="decisionmaker" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad3ada95-daaa-4307-b79a-2ebf8beb1a18}" showlabel="true" visible="true" labelid="{7b9a3d1e-8958-4268-aa07-0c07ed2eb4b9}">
+                        <labels>
+                          <label description="Capture Summary" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{650e06b4-789b-46c1-822b-0da76bedb1ed}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{5e4d4a8a-4b2d-4496-9e4e-06f53cec2934}">
+          <labels>
+            <label description="Develop" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{650e06b4-789b-46c1-822b-0da76bedb1ed}" name="StageStep19_section1" labelid="{1274a87a-86a1-4aa6-a5b3-9f93160c5cf3}">
+                  <labels>
+                    <label description="Develop" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2eb53db2-d179-448d-a9ce-17192a45ec07}" showlabel="true" visible="true" labelid="{d1e9fbf4-1ddf-4f6f-b3ec-2574d2c3428c}">
+                        <labels>
+                          <label description="Customer Need" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:customerneed" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="customerneed" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84741cf0-35ca-4b2e-b474-b8a7699b4e5d}" showlabel="true" visible="true" labelid="{cc99cbc6-41a9-4133-b31a-e7f5b77c5862}">
+                        <labels>
+                          <label description="Proposed Solution" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:proposedsolution" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="proposedsolution" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db4248b2-6b43-4a06-9c03-46c7760443a2}" showlabel="true" visible="true" labelid="{1281aaf3-72d5-4949-a28d-7d166441c6e5}">
+                        <labels>
+                          <label description="Identify Stakeholders" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:identifycustomercontacts" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="identifycustomercontacts" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc666740-b46f-4c65-80e5-2848b6d6c382}" showlabel="true" visible="true" labelid="{aff9e41b-29ad-4eeb-a813-98a503139135}">
+                        <labels>
+                          <label description="Identify Competitors" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:identifycompetitors" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="identifycompetitors" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{18a73f84-85aa-4c8c-8a83-08deae2263ea}" name="StageStep29" locklevel="0" expanded="true" visible="false" labelid="{95fa8ced-4088-45af-af3b-aeb5fffe27de}">
+          <labels>
+            <label description="Authorise" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{18a73f84-85aa-4c8c-8a83-08deae2263ea}" name="StageStep29_section1" labelid="{e4801ec7-b947-4ef6-af4a-3bad1701de86}">
+                  <labels>
+                    <label description="Authorise" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{69509194-6ccd-4ab2-b804-ae15ed3bcaa9}" showlabel="true" visible="true" labelid="{f6fea8d7-c347-43d5-9b09-b336cf75a480}">
+                        <labels>
+                          <label description="Budget Amount" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d3ca8878-8d7b-47b9-852d-fcd838790cfd}" name="StageStep33" locklevel="0" expanded="true" visible="false" labelid="{0dcd067c-516d-4112-8c7a-cf057009c663}">
+          <labels>
+            <label description="Propose" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d3ca8878-8d7b-47b9-852d-fcd838790cfd}" name="StageStep33_section1" labelid="{9ff32da4-58d5-4767-966e-5ec382338f92}">
+                  <labels>
+                    <label description="Propose" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0d82da09-5708-4ca6-8a28-cc1e86946e1a}" showlabel="true" visible="true" labelid="{ce3d53e1-2adf-4c8f-a331-500b6ce19606}">
+                        <labels>
+                          <label description="Identify Sales Team" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:identifypursuitteam" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="identifypursuitteam" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c4d4c32-e063-448a-b2a1-3cacdaccfc7e}" showlabel="true" visible="true" labelid="{76476f4b-6e78-4480-b1f5-49314bc98523}">
+                        <labels>
+                          <label description="Develop Proposal" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:developproposal" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="developproposal" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{478133c6-4710-4c4b-8f0c-7e9738b284fb}" showlabel="true" visible="true" labelid="{7ececdb6-97e1-4203-877b-dcc29b97e625}">
+                        <labels>
+                          <label description="Complete Internal Review" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:completeinternalreview" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="completeinternalreview" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22630029-125d-4cc4-8c05-eca344b88a2f}" showlabel="true" visible="true" labelid="{7cb4f943-8c12-4e72-8f4b-41bcf6526dda}">
+                        <labels>
+                          <label description="Present Proposal" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:presentproposal" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="presentproposal" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{bb7e830a-61bd-441b-b1fd-6bb104ffa027}" name="StageStep43" locklevel="0" expanded="true" visible="false" labelid="{22a55e2f-5444-4628-b66d-e8205765353f}">
+          <labels>
+            <label description="Close" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{bb7e830a-61bd-441b-b1fd-6bb104ffa027}" name="StageStep43_section1" labelid="{ac68b7b8-c089-4ec3-8ebb-61a963150c55}">
+                  <labels>
+                    <label description="Close" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13b4f0ae-07dc-46da-b318-7b72b59955f4}" showlabel="true" visible="true" labelid="{88624c46-0ab4-4056-bacd-18d8c7dfe869}">
+                        <labels>
+                          <label description="Complete Final Proposal" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:completefinalproposal" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="completefinalproposal" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ae856ba-3e2a-4ff9-8ba8-eda0897f6149}" showlabel="true" visible="true" labelid="{959f6625-f1bc-4fdd-a355-bdb3a1a85fc2}">
+                        <labels>
+                          <label description="Present Final Proposal" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:presentfinalproposal" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="presentfinalproposal" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2a645c3-f407-4a1b-bbbd-df13ea74eb71}" showlabel="true" visible="true" labelid="{974bfe6b-ff56-421f-b372-da3a998ef899}">
+                        <labels>
+                          <label description="Confirm Decision Date" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:finaldecisiondate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="finaldecisiondate" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34597dec-dd2b-4643-a872-3335132c5c06}" showlabel="true" visible="true" labelid="{77d15dc0-a073-4553-a3ea-ff49d732b867}">
+                        <labels>
+                          <label description="Send Thank You" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:sendthankyounote" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="sendthankyounote" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a5df397-3d76-4a14-9218-8ec9979a8669}" showlabel="true" visible="true" labelid="{05ff0859-b5c6-4b51-af54-ee0ec4119a6b}">
+                        <labels>
+                          <label description="File De-brief" languagecode="1033" />
+                        </labels>
+                        <control id="lk_opportunitysalesprocess_opportunityid:filedebrief" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="filedebrief" relationship="lk_opportunitysalesprocess_opportunityid" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="OpportunitySalesProcesses" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
