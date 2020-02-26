@@ -352,7 +352,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="description_2" id="{22c54202-b263-46e5-9676-47112c3be47d}">
+                <section name="description" id="{22c54202-b263-46e5-9676-47112c3be47d}">
                   <labels>
                     <label description="Description" languagecode="1033" />
                   </labels>
@@ -364,11 +364,10 @@
                         </labels>
                         <control id="territoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="territoryid" />
                       </cell>
-                      <cell id="{75231669-b6e4-42c1-98fa-ed1fd2d4091b}">
+                      <cell id="{29760e45-5a38-4b2a-b8d0-fd99fb62f6d1}">
                         <labels>
-                          <label description="Relationship Type" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="customertypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="customertypecode" />
                       </cell>
                     </row>
                     <row>
@@ -378,7 +377,20 @@
                         </labels>
                         <control id="accountcategorycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="accountcategorycode" />
                       </cell>
-                      <cell id="{87b1afd2-181b-4385-ba08-5383515fce6d}">
+                      <cell id="{f85822e2-a682-4334-a9c3-4610ea4504da}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75231669-b6e4-42c1-98fa-ed1fd2d4091b}">
+                        <labels>
+                          <label description="Relationship Type" languagecode="1033" />
+                        </labels>
+                        <control id="customertypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="customertypecode" />
+                      </cell>
+                      <cell id="{8066d636-377f-465d-8054-70f228b189b5}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -412,11 +424,10 @@
                         </labels>
                         <control id="creditlimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="creditlimit" />
                       </cell>
-                      <cell id="{88b1eb8d-6cb7-4172-a2e9-68d7f702a941}">
+                      <cell id="{811dc54d-f71e-4364-93f4-71e00074d317}">
                         <labels>
-                          <label description="Credit Hold" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="creditonhold" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="creditonhold" />
                       </cell>
                     </row>
                     <row>
@@ -432,7 +443,20 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{ddb4e924-04dc-4a1d-9606-eacd5cf2426f}">
+                      <cell id="{9c8f3efd-1936-4877-9b97-8d409a62f8a3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88b1eb8d-6cb7-4172-a2e9-68d7f702a941}">
+                        <labels>
+                          <label description="Credit Hold" languagecode="1033" />
+                        </labels>
+                        <control id="creditonhold" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="creditonhold" />
+                      </cell>
+                      <cell id="{1cfbb2ed-e5f8-4dc8-9129-b6804a2a92cf}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -590,52 +614,69 @@
                         </labels>
                         <control id="preferredcontactmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="preferredcontactmethodcode" />
                       </cell>
-                      <cell id="{555ac5ba-3a26-428d-bcc2-2186f3e99b55}">
-                        <labels>
-                          <label description="Bulk Email" languagecode="1033" />
-                        </labels>
-                        <control id="donotbulkemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotbulkemail" />
-                      </cell>
-                      <cell id="{7978684f-a8c5-48b2-9b11-4d34215f3e74}">
-                        <labels>
-                          <label description="Email" languagecode="1033" />
-                        </labels>
-                        <control id="donotemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotemail" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{360d95eb-8ba4-41be-b8ad-5e9feed28f0c}">
                         <labels>
                           <label description="Follow Email" languagecode="1033" />
                         </labels>
                         <control id="followemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="followemail" />
                       </cell>
-                      <cell id="{4a9ae9d0-f4ca-45f0-886c-bcfc00f98003}">
+                      <cell id="{555ac5ba-3a26-428d-bcc2-2186f3e99b55}">
                         <labels>
-                          <label description="Mail" languagecode="1033" />
+                          <label description="Bulk Email" languagecode="1033" />
                         </labels>
-                        <control id="donotpostalmail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotpostalmail" />
-                      </cell>
-                      <cell id="{18193a06-a1fa-41c7-86b6-7bd88696c495}">
-                        <labels>
-                          <label description="Phone" languagecode="1033" />
-                        </labels>
-                        <control id="donotphone" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotphone" />
+                        <control id="donotbulkemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotbulkemail" />
                       </cell>
                     </row>
                     <row>
+                      <cell id="{7978684f-a8c5-48b2-9b11-4d34215f3e74}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="donotemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotemail" />
+                      </cell>
                       <cell id="{0a5eeb02-68b5-4cec-93d5-fa27bd56e89b}">
                         <labels>
                           <label description="Fax" languagecode="1033" />
                         </labels>
                         <control id="donotfax" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotfax" />
                       </cell>
+                      <cell id="{f767691f-99f6-4118-aa38-1d8c891782ac}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18193a06-a1fa-41c7-86b6-7bd88696c495}">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="donotphone" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotphone" />
+                      </cell>
                       <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
+                      <cell id="{3c591e3b-0416-45b8-a50b-a7f62c84c5c0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a9ae9d0-f4ca-45f0-886c-bcfc00f98003}">
+                        <labels>
+                          <label description="Mail" languagecode="1033" />
+                        </labels>
+                        <control id="donotpostalmail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotpostalmail" />
+                      </cell>
                       <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{cdf76ada-0bfc-41c8-9b7e-0ee377adfab4}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
