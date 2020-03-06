@@ -17,7 +17,7 @@ using System.Text;
 
 namespace AlexaFunction
 {
-    public static class Function1
+    public static partial class Alexa
     {
         private static IQueueClient queueClient;
         [FunctionName("Alexa")]
