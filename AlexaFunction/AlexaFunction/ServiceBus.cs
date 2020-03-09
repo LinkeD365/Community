@@ -20,6 +20,7 @@ namespace AlexaFunction
         {
             try
             {
+                log.LogInformation(System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString());
                 object request = JsonConvert.DeserializeObject(myQueueItem);
                 log.LogInformation("Getting App Values");
                 string baseUrl = Environment.GetEnvironmentVariable("baseUrl");

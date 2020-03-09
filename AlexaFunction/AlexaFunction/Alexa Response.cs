@@ -27,6 +27,7 @@ namespace AlexaFunction
                         ExecutionContext context)
         {
             log.LogInformation("Alexa HTTP Triggered");
+            log.LogInformation(System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString());
             string content = new StreamReader(req.Body).ReadToEnd();
             dynamic alexaContent = JsonConvert.DeserializeObject(content);
 
