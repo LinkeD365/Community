@@ -93,12 +93,12 @@ namespace AlexaFunction
                 d365Connect.DefaultRequestHeaders.Add("OData-Version", "4.0");
                 d365Connect.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 d365Connect.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
-                HttpResponseMessage whoAmIResponse = await d365Connect.GetAsync("api/data/v9.1//contacts()?$select=firstname, lastname&$filter=emailaddress1 eq '" + emailAddress + "'");
-                if (!whoAmIResponse.IsSuccessStatusCode)
+                HttpResponseMessage contactResponse = await d365Connect.GetAsync("api/data/v9.1//contacts()?$select=firstname, lastname&$filter=emailaddress1 eq '" + emailAddress + "'");
+                if (!contactResponse.IsSuccessStatusCode)
                     return (IActionResult)null;
                 log.LogInformation("Read Contact");
-                JObject jWhoAmIResponse = JObject.Parse(whoAmIResponse.Content.ReadAsStringAsync().Result);
-                if (!jWhoAmIResponse["value"].HasValues)
+                JObject jContactResponse = JObject.Parse(contactResponse.Content.ReadAsStringAsync().Result);
+                if (!jContactResponse["value"].HasValues)
                 {
                     log.LogInformation("Cant find contact");
                     var errorObject = new
@@ -121,13 +121,13 @@ namespace AlexaFunction
                     };
                     return new JsonResult(errorObject);
                 }
-                JToken firstname = jWhoAmIResponse["value"][0]["firstname"];
+                JToken firstname = jContactResponse["value"][0]["firstname"];
                 log.LogInformation("Before send to bus");
                 var queueClient = (IQueueClient)new QueueClient(Environment.GetEnvironmentVariable("ServiceBusConString"), Environment.GetEnvironmentVariable("queueName"), ReceiveMode.PeekLock, (RetryPolicy)null);
                 var fsObject = new
                 {
                     email = emailAddress,
-                    contactId = (Guid)jWhoAmIResponse["value"][0]["contactid"],
+                    contactId = (Guid)jContactResponse["value"][0]["contactid"],
                     intent,
                     date,
                     device
