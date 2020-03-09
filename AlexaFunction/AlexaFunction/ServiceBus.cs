@@ -1,15 +1,11 @@
 ﻿using Microsoft.Azure.WebJobs;
-
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using Microsoft.Azure.ServiceBus;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json.Linq;
 
 namespace AlexaFunction
 {
@@ -30,16 +26,15 @@ namespace AlexaFunction
                 log.LogInformation(baseUrl + "|" + clientId + "|" + secret + "|" + authority + "|");
                 log.LogInformation("Getting tokecn");
                 string getToken = await GetToken(baseUrl, clientId, secret, authority, log);
-                TokenResponse tokenResponse = JsonConvert.DeserializeObject<TokenResponse>(getToken);
                 log.LogInformation("got token");
-                string accessToken = tokenResponse.access_token;
+
                 using (HttpClient d365Connect = new HttpClient())
                 {
                     d365Connect.BaseAddress = new Uri(baseUrl);
                     d365Connect.DefaultRequestHeaders.Add("OData-MaxVersion", "4.0");
                     d365Connect.DefaultRequestHeaders.Add("OData-Version", "4.0");
                     d365Connect.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                    d365Connect.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+                    d365Connect.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", getToken);
 
                     JObject woObject = JObject.Parse(myQueueItem);
 
@@ -69,11 +64,11 @@ namespace AlexaFunction
 
                     log.LogInformation("Got all the details preparing jobject");
                     JObject workOrder = new JObject();
-                    workOrder.Add("msdyn_pricelist@odata.bind", ("/pricelevels(" + (object)priceListId + ")"));
-                    workOrder.Add("msdyn_name", ("AZ" + (object)new Random().Next(4000, 500000)));
-                    workOrder.Add("msdyn_serviceaccount@odata.bind", ("/accounts(" + (object)accountId + ")"));
+                    workOrder.Add("msdyn_pricelist@odata.bind", ("/pricelevels(" + priceListId + ")"));
+                    workOrder.Add("msdyn_name", ("AZ" + new Random().Next(4000, 500000)));
+                    workOrder.Add("msdyn_serviceaccount@odata.bind", ("/accounts(" + accountId + ")"));
                     workOrder.Add("msdyn_systemstatus", 690970000);
-                    workOrder.Add("msdyn_workordertype@odata.bind", ("/msdyn_workordertypes(" + (object)woTypeId + ")"));
+                    workOrder.Add("msdyn_workordertype@odata.bind", ("/msdyn_workordertypes(" + woTypeId + ")"));
                     workOrder.Add("msdyn_taxable", false);
                     if (date != string.Empty) workOrder.Add("msdyn_timefrompromised", date);
                     if (device != string.Empty) workOrder.Add("msdyn_instructions", device);

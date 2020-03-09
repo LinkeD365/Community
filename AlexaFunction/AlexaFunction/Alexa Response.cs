@@ -1,19 +1,20 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.ServiceBus;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-using Microsoft.Azure.ServiceBus;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace AlexaFunction
 {
@@ -84,8 +85,7 @@ namespace AlexaFunction
             string getToken = await GetToken(baseUrl, clientId, secret, authority, log);
 
             log.LogInformation("Token: " + getToken.ToString());
-            TokenResponse tokenResponse = JsonConvert.DeserializeObject<TokenResponse>(getToken);
-            string _accessToken = tokenResponse.access_token;
+
             log.LogInformation("Got Token");
             using (HttpClient d365Connect = new HttpClient())
             {
@@ -93,10 +93,10 @@ namespace AlexaFunction
                 d365Connect.DefaultRequestHeaders.Add("OData-MaxVersion", "4.0");
                 d365Connect.DefaultRequestHeaders.Add("OData-Version", "4.0");
                 d365Connect.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                d365Connect.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                d365Connect.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", getToken);
                 HttpResponseMessage contactResponse = await d365Connect.GetAsync("api/data/v9.1//contacts()?$select=firstname, lastname&$filter=emailaddress1 eq '" + emailAddress + "'");
                 if (!contactResponse.IsSuccessStatusCode)
-                    return (IActionResult)null;
+                    return null;
                 log.LogInformation("Read Contact");
                 JObject jContactResponse = JObject.Parse(contactResponse.Content.ReadAsStringAsync().Result);
                 if (!jContactResponse["value"].HasValues)
@@ -124,7 +124,7 @@ namespace AlexaFunction
                 }
                 JToken firstname = jContactResponse["value"][0]["firstname"];
                 log.LogInformation("Before send to bus");
-                var queueClient = (IQueueClient)new QueueClient(Environment.GetEnvironmentVariable("ServiceBusConString"), Environment.GetEnvironmentVariable("queueName"), ReceiveMode.PeekLock, (RetryPolicy)null);
+                var queueClient = (IQueueClient)new QueueClient(Environment.GetEnvironmentVariable("ServiceBusConString"), Environment.GetEnvironmentVariable("queueName"), ReceiveMode.PeekLock, null);
                 var fsObject = new
                 {
                     email = emailAddress,
@@ -154,7 +154,7 @@ namespace AlexaFunction
                         break;
                     default:
                         returnBody = "OK, Big Energy Azure Function has got your request";
-  
+
                         break;
                 }
 
@@ -178,7 +178,7 @@ namespace AlexaFunction
                     }
                 };
                 log.LogInformation("Responding");
-                return (IActionResult)new JsonResult(returnObject);
+                return new JsonResult(returnObject);
             }
         }
         private static async Task<string> GetToken(
@@ -190,21 +190,14 @@ namespace AlexaFunction
         {
             log.LogInformation("In GetToken");
             string str;
-            using (HttpClient httpClient = new HttpClient())
-            {
-                FormUrlEncodedContent formContent = new FormUrlEncodedContent((IEnumerable<KeyValuePair<string, string>>)new KeyValuePair<string, string>[4]
-                {
-                  new KeyValuePair<string, string>("resource", baseUrl),
-                  new KeyValuePair<string, string>("client_id", clientId),
-                  new KeyValuePair<string, string>("client_secret", secret),
-                  new KeyValuePair<string, string>("grant_type", "client_credentials")
-                });
-                log.LogInformation("postsync||" + formContent.ToString() + "||" + Authority);
-                HttpResponseMessage response = await httpClient.PostAsync(Authority, (HttpContent)formContent);
-                log.LogInformation(response.ToString());
-                str = !response.IsSuccessStatusCode ? (string)null : response.Content.ReadAsStringAsync().Result;
-            }
-            return str;
+
+            AuthenticationContext authContext = new AuthenticationContext(Authority);
+
+            ClientCredential credential = new ClientCredential(clientId, secret);
+
+            AuthenticationResult result = await authContext.AcquireTokenAsync(baseUrl, credential);
+
+            return result.AccessToken;
         }
 
         private static async Task SendMessagesAsync(string messageToSend)
@@ -214,7 +207,7 @@ namespace AlexaFunction
                 Message message = new Message(Encoding.UTF8.GetBytes(messageToSend));
                 Console.WriteLine("Sending message: " + messageToSend);
                 await queueClient.SendAsync(message);
-                message = (Message)null;
+                message = null;
             }
             catch (Exception ex)
             {
