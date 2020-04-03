@@ -1004,7 +1004,7 @@
             <AttributeName>cc_name</AttributeName>
           </EntityKeyAttributes>
           <displaynames>
-            <displayname description="Name Key" languagecode="1033" />
+            <displayname description="Name Key " languagecode="1033" />
           </displaynames>
         </EntityKey>
       </EntityKeys>
