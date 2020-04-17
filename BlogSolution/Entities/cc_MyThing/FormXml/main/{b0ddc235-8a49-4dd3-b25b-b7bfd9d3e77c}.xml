@@ -14,7 +14,7 @@
           <columns>
             <column width="33%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{502355f6-42e2-4e26-9cdf-bff5fdec9a87}">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{502355f6-42e2-4e26-9cdf-bff5fdec9a87}" height="auto">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -25,6 +25,22 @@
                           <label description="Name" languagecode="1033" />
                         </labels>
                         <control id="cc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{440b12a1-d77b-c8c0-836b-c128162525c0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Normal" languagecode="1033" />
+                        </labels>
+                        <control id="cc_optionset" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cc_optionset" disabled="false" uniqueid="{30931859-7d50-26c3-bcab-e17dd7c07aae}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{691e3e15-0b7c-0e5a-02c5-dc613a64a8b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="optionset" languagecode="1033" />
+                        </labels>
+                        <control id="cc_optionset" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cc_optionset" disabled="false" uniqueid="{7e04dc44-b4ce-e321-83aa-ad1305464da1}" />
                       </cell>
                     </row>
                     <row>
@@ -40,7 +56,7 @@
                         <labels>
                           <label description="Status Reason" languagecode="1033" />
                         </labels>
-                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" uniqueid="{a4e3e2dd-365e-2e3d-1057-98ae34dc0d3c}" />
                       </cell>
                     </row>
                     <row>
@@ -51,7 +67,7 @@
                         <control id="cc_approver" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cc_approver" disabled="false" />
                       </cell>
                     </row>
-                    <row>
+                    <row height="auto">
                       <cell id="{ccd39123-8857-47f9-9061-7e29a6e17607}" showlabel="true" locklevel="0" auto="true">
                         <labels>
                           <label description="Approval Log" languagecode="1033" />
@@ -275,7 +291,6 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="0" FallbackForm="true" />
       <controlDescriptions>
         <controlDescription forControl="{a23a5c54-05d1-442b-87f9-743fd272d65a}">
           <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
@@ -308,7 +323,56 @@
             </parameters>
           </customControl>
         </controlDescription>
+        <controlDescription forControl="{7e04dc44-b4ce-e321-83aa-ad1305464da1}">
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" formFactor="0">
+            <parameters>
+              <datafieldname>cc_optionset</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" formFactor="1">
+            <parameters>
+              <datafieldname>cc_optionset</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="ccdev_PCFAcademy.FilteredOptionsetReact">
+            <parameters>
+              <value>cc_optionset</value>
+              <availableValues static="true" type="SingleLine.Text">948,120,000|948,120,001</availableValues>
+            </parameters>
+          </customControl>
+        </controlDescription>
       </controlDescriptions>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

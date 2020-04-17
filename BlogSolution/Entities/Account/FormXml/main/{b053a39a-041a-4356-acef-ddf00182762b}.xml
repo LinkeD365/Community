@@ -377,7 +377,7 @@
                         </labels>
                         <control id="accountcategorycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="accountcategorycode" />
                       </cell>
-                      <cell id="{f85822e2-a682-4334-a9c3-4610ea4504da}">
+                      <cell id="{7303540d-7beb-42c7-b160-0f37faa717ef}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -390,7 +390,7 @@
                         </labels>
                         <control id="customertypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="customertypecode" />
                       </cell>
-                      <cell id="{8066d636-377f-465d-8054-70f228b189b5}">
+                      <cell id="{984f2c4d-c3b7-4249-9b7d-764ab335951c}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -443,7 +443,7 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{9c8f3efd-1936-4877-9b97-8d409a62f8a3}">
+                      <cell id="{7a02713a-adfd-4112-87b0-12c481febf3d}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -456,7 +456,7 @@
                         </labels>
                         <control id="creditonhold" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="creditonhold" />
                       </cell>
-                      <cell id="{1cfbb2ed-e5f8-4dc8-9129-b6804a2a92cf}">
+                      <cell id="{b37300c0-4a1a-45fe-9e76-7f81fc7ebe7f}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -640,7 +640,7 @@
                         </labels>
                         <control id="donotfax" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotfax" />
                       </cell>
-                      <cell id="{f767691f-99f6-4118-aa38-1d8c891782ac}">
+                      <cell id="{1093cb83-35b6-47d3-805e-681d59d2880b}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -658,7 +658,7 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{3c591e3b-0416-45b8-a50b-a7f62c84c5c0}">
+                      <cell id="{01d0a53d-cd3f-4d15-8b5b-20c65458b22b}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -676,7 +676,7 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{cdf76ada-0bfc-41c8-9b7e-0ee377adfab4}">
+                      <cell id="{ad2be4cb-6671-4fa3-8728-565df05bfccf}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

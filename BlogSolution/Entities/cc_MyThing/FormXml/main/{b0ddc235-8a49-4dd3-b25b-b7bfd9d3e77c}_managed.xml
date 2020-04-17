@@ -14,7 +14,7 @@
           <columns>
             <column width="33%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{502355f6-42e2-4e26-9cdf-bff5fdec9a87}">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{502355f6-42e2-4e26-9cdf-bff5fdec9a87}" height="auto">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -22,15 +22,31 @@
                     <row>
                       <cell id="{6e0fcdb1-d1b0-4e8f-80c1-f697407354af}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Name" languagecode="1033" />
                         </labels>
                         <control id="cc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cc_name" />
                       </cell>
                     </row>
                     <row>
+                      <cell id="{440b12a1-d77b-c8c0-836b-c128162525c0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Normal" languagecode="1033" />
+                        </labels>
+                        <control id="cc_optionset" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cc_optionset" disabled="false" uniqueid="{30931859-7d50-26c3-bcab-e17dd7c07aae}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{691e3e15-0b7c-0e5a-02c5-dc613a64a8b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="optionset" languagecode="1033" />
+                        </labels>
+                        <control id="cc_optionset" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cc_optionset" disabled="false" uniqueid="{7e04dc44-b4ce-e321-83aa-ad1305464da1}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{7490fea1-b041-41b8-a420-ee60ab985f9c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
@@ -38,23 +54,23 @@
                     <row>
                       <cell id="{177e7219-6aa2-4b4a-9832-ffe864af639e}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Status Reason" languagecode="1033" />
                         </labels>
-                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" uniqueid="{a4e3e2dd-365e-2e3d-1057-98ae34dc0d3c}" />
                       </cell>
                     </row>
                     <row>
                       <cell id="{f4091b1e-9f01-4d76-8c41-191c9d546637}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Approver" languagecode="1033" />
                         </labels>
                         <control id="cc_approver" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cc_approver" disabled="false" />
                       </cell>
                     </row>
-                    <row>
+                    <row height="auto">
                       <cell id="{ccd39123-8857-47f9-9061-7e29a6e17607}" showlabel="true" locklevel="0" auto="true">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Approval Log" languagecode="1033" />
                         </labels>
                         <control id="cc_approvallog" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cc_approvallog" disabled="false" />
                       </cell>
@@ -62,7 +78,7 @@
                     <row>
                       <cell id="{2f085b7d-3146-4386-b834-a1e37551cffc}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="number" languagecode="1033" />
                         </labels>
                         <control id="cc_number" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cc_number" disabled="false" uniqueid="{a23a5c54-05d1-442b-87f9-743fd272d65a}" />
                       </cell>
@@ -150,25 +166,25 @@
                     <row>
                       <cell id="{dcd4af04-b78e-41b5-87ed-c34f0b07bd30}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Status" languagecode="1033" />
                         </labels>
                         <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
                       </cell>
                       <cell id="{927e6adc-4168-4dd2-890b-a7686b9ffd13}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Created By" languagecode="1033" />
                         </labels>
                         <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
                       </cell>
                       <cell id="{3a9c7580-0b81-47c2-858e-a7865f8ff631}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Modified By" languagecode="1033" />
                         </labels>
                         <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
                       </cell>
                       <cell id="{78e5db0a-8c0f-4e42-8583-8f4c14cdfbcd}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Modified On" languagecode="1033" />
                         </labels>
                         <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
                       </cell>
@@ -223,31 +239,31 @@
             </cell>
             <cell id="{44d936bf-5f8b-4ff0-8906-56d919db3eff}" showlabel="true" locklevel="0">
               <labels>
-                <label description="" languagecode="1033" />
+                <label description="email" languagecode="1033" />
               </labels>
               <control id="header_cc_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cc_email" disabled="false" />
             </cell>
             <cell id="{93fd0b66-11e6-44ce-8bc7-cb2819009606}" showlabel="true" locklevel="0">
               <labels>
-                <label description="" languagecode="1033" />
+                <label description="Created On" languagecode="1033" />
               </labels>
               <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
             </cell>
             <cell id="{6cf9dad4-3c0f-436a-b12e-efe96e18693b}" showlabel="true" locklevel="0">
               <labels>
-                <label description="" languagecode="1033" />
+                <label description="Approver" languagecode="1033" />
               </labels>
               <control id="header_cc_approver" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cc_approver" disabled="false" />
             </cell>
             <cell id="{376e973a-8cb9-486f-9fb4-7ddb1bd1e1e6}" showlabel="true" locklevel="0">
               <labels>
-                <label description="" languagecode="1033" />
+                <label description="Owner" languagecode="1033" />
               </labels>
               <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
             </cell>
             <cell id="{f0a5e8ed-4a33-4386-bbfe-9b2423455b1e}" showlabel="true" locklevel="0">
               <labels>
-                <label description="" languagecode="1033" />
+                <label description="Status" languagecode="1033" />
               </labels>
               <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
             </cell>
@@ -275,7 +291,6 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="0" FallbackForm="true" />
       <controlDescriptions>
         <controlDescription forControl="{a23a5c54-05d1-442b-87f9-743fd272d65a}">
           <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
@@ -308,7 +323,56 @@
             </parameters>
           </customControl>
         </controlDescription>
+        <controlDescription forControl="{7e04dc44-b4ce-e321-83aa-ad1305464da1}">
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" formFactor="0">
+            <parameters>
+              <datafieldname>cc_optionset</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" formFactor="1">
+            <parameters>
+              <datafieldname>cc_optionset</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="ccdev_PCFAcademy.FilteredOptionsetReact">
+            <parameters>
+              <value>cc_optionset</value>
+              <availableValues static="true" type="SingleLine.Text">948,120,000|948,120,001</availableValues>
+            </parameters>
+          </customControl>
+        </controlDescription>
       </controlDescriptions>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
