@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.16532" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.16840" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>Alexa</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Alexa" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.3</Version>
+    <Version>1.0.0.4</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>ccdemo</UniqueName>
@@ -89,27 +89,27 @@
         <Dependent key="0" type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Required key="1" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="Active" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="Active" />
+        <Required key="3" type="2" schemaName="msdyn_taxable" displayName="Taxable" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="2" schemaName="msdyn_taxable" displayName="Taxable" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Required key="4" type="2" schemaName="msdyn_pricelist" displayName="Price List" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="2" schemaName="msdyn_pricelist" displayName="Price List" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Required key="5" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Required key="6" type="2" schemaName="msdyn_incidentrequired" displayName="Incident Required" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="2" schemaName="msdyn_incidentrequired" displayName="Incident Required" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Required key="7" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
