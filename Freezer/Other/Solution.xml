@@ -7,9 +7,9 @@
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.2</Version>
-    <Managed>2</Managed>
+    <Managed>0</Managed>
     <Publisher>
-      <UniqueName>ccdemo</UniqueName>
+      <UniqueName>CCDemo</UniqueName>
       <LocalizedNames>
         <LocalizedName description="CC Demo" languagecode="1033" />
       </LocalizedNames>
