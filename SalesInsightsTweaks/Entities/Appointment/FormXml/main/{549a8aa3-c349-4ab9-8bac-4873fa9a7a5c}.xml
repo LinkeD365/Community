@@ -216,7 +216,7 @@
                         </control>
                       </cell>
                     </row>
-                    <row></row>
+                    <row />
                     <row />
                     <row />
                     <row />

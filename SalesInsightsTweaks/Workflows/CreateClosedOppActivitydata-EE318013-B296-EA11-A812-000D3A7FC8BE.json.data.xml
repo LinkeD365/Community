@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{536be48b-c78e-ea11-a811-000d3a7fc8be}" Name="Recurrence -&gt; List records" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/Recurrence-Listrecords-536BE48B-C78E-EA11-A811-000D3A7FC8BE.json</JsonFileName>
+<Workflow WorkflowId="{ee318013-b296-ea11-a812-000d3a7fc8be}" Name="Create Closed Opp / Activity data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/CreateClosedOppActivitydata-EE318013-B296-EA11-A812-000D3A7FC8BE.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -21,6 +21,6 @@
   <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Recurrence -&gt; List records" />
+    <LocalizedName languagecode="1033" description="Create Closed Opp / Activity data" />
   </LocalizedNames>
 </Workflow>
