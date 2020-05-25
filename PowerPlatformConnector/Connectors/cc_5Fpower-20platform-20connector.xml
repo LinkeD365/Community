@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>afc3e93a-a4d9-480f-9aa3-fbc25b66f768</connectorid>
+  <description>PowerPlatform Connector</description>
+  <displayname>Power Platform Connector</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>cc_5Fpower-20platform-20connector</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/cc_5Fpower-20platform-20connector_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/cc_5Fpower-20platform-20connector_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/cc_5Fpower-20platform-20connector_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/cc_5Fpower-20platform-20connector_iconblob.Jpeg</iconblob>
+</Connector>
