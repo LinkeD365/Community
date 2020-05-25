@@ -282,7 +282,7 @@
                         <control id="contactopportunitiesgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
                             <ViewId>{9C3F7EE8-ECA7-E211-9FB6-00155DD0EA05}</ViewId>
-                            <RelationshipName>opportunity_customer_contacts</RelationshipName>
+                            <RelationshipName>opportunity_parent_contact</RelationshipName>
                             <TargetEntityType>opportunity</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
