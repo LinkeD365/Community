@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.18036" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.18341" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>BlogBits</UniqueName>
     <LocalizedNames>
@@ -81,6 +81,7 @@
       <RootComponent type="29" id="{2c25781f-4b9f-ea11-a812-000d3a7fc8be}" behavior="0" />
       <RootComponent type="29" id="{3570c3e1-a0a4-ea11-a812-000d3a7fc8be}" behavior="0" />
       <RootComponent type="29" id="{a7adfa57-499f-ea11-a812-000d3a7fc8be}" behavior="0" />
+      <RootComponent type="29" id="{ed1a0c3b-fca6-ea11-a812-000d3a7fc8be}" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
