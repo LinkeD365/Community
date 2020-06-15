@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.18341" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.18645" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CustServInsights</UniqueName>
     <LocalizedNames>
@@ -88,24 +88,24 @@
         <Dependent key="1" type="29" displayName="Add Satisfaction and escalate" id="{e6feee86-83a1-ea11-a812-000d3a7fc8be}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="incidentresolution" displayName="Case Resolution" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="29" displayName="Fix close incident" id="{078de7a8-90a1-ea11-a812-000d3a7fc8be}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="0" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="4" type="29" displayName="Create Cases" id="{be0167df-1ca0-ea11-a812-000d3a7fc8be}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="5" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
-        <Dependent key="4" type="29" displayName="Create Cases" id="{be0167df-1ca0-ea11-a812-000d3a7fc8be}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="5" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
+        <Required key="2" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
         <Dependent key="1" type="29" displayName="Add Satisfaction and escalate" id="{e6feee86-83a1-ea11-a812-000d3a7fc8be}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
-        <Dependent key="3" type="29" displayName="Fix close incident" id="{078de7a8-90a1-ea11-a812-000d3a7fc8be}" />
+        <Required key="3" type="1" schemaName="incidentresolution" displayName="Case Resolution" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="4" type="29" displayName="Fix close incident" id="{078de7a8-90a1-ea11-a812-000d3a7fc8be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
+        <Dependent key="4" type="29" displayName="Fix close incident" id="{078de7a8-90a1-ea11-a812-000d3a7fc8be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="5" type="29" displayName="Create Cases" id="{be0167df-1ca0-ea11-a812-000d3a7fc8be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="372" schemaName="cc_5Fpower-20platform-20connector" displayName="Power Platform Connector" solution="Active" id="{afc3e93a-a4d9-480f-9aa3-fbc25b66f768}" />
+        <Dependent key="5" type="29" displayName="Create Cases" id="{be0167df-1ca0-ea11-a812-000d3a7fc8be}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
