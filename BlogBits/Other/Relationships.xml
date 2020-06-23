@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_cc_schedule" />
+  <EntityRelationship Name="cc_Schedule_Contact_Contact" />
+  <EntityRelationship Name="lk_cc_schedule_createdby" />
+  <EntityRelationship Name="lk_cc_schedule_modifiedby" />
+  <EntityRelationship Name="msdyn_msdyn_contactkpiitem_contact_contactkpiid" />
+  <EntityRelationship Name="owner_cc_schedule" />
+  <EntityRelationship Name="team_cc_schedule" />
+  <EntityRelationship Name="user_cc_schedule" />
+</EntityRelationships>
