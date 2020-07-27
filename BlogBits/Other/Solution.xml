@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.20151" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.20453" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>BlogBits</UniqueName>
     <LocalizedNames>
@@ -95,7 +95,7 @@
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="msdyn_mostcontacted" displayName="Most Contacted" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="2" type="1" schemaName="msdyn_mostcontacted" displayName="Most Contacted" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
@@ -147,7 +147,7 @@
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="1" schemaName="msdyn_mostcontactedby" displayName="Most Contacted By" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="15" type="1" schemaName="msdyn_mostcontactedby" displayName="Most Contacted By" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
@@ -155,7 +155,7 @@
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="17" type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="1" type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
@@ -227,11 +227,11 @@
         <Dependent key="21" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2006.5017)" />
+        <Required key="36" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2007.1010)" />
         <Dependent key="21" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2006.5017)" />
+        <Required key="37" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2007.1010)" />
         <Dependent key="21" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
@@ -271,11 +271,11 @@
         <Dependent key="42" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="46" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0001)" />
+        <Required key="46" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0002)" />
         <Dependent key="42" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="47" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0001)" />
+        <Required key="47" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0002)" />
         <Dependent key="42" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
@@ -291,27 +291,27 @@
         <Dependent key="50" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="17" type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="52" type="2" schemaName="msdyn_name" displayName="Custom Entity Name" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="52" type="2" schemaName="msdyn_name" displayName="Custom Entity Name" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="53" type="2" schemaName="msdyn_contactkpiitemid" displayName="Unique Identifier for Entity Instances" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="53" type="2" schemaName="msdyn_contactkpiitemid" displayName="Unique Identifier for Entity Instances" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="54" type="2" schemaName="msdyn_contactkpiid" displayName="KPI" parentSchemaName="contact" parentDisplayName="Contact" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="54" type="2" schemaName="msdyn_contactkpiid" displayName="KPI" parentSchemaName="contact" parentDisplayName="Contact" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0556)" />
+        <Required key="51" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
         <Dependent key="55" type="2" schemaName="msdyn_contactkpiidname" parentSchemaName="contact" parentDisplayName="Contact" />
       </MissingDependency>
     </MissingDependencies>
