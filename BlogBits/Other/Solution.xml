@@ -95,15 +95,15 @@
         <Dependent key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="2" schemaName="adx_preferredlanguageid" displayName="Preferred Language" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftPortalBase (9.2.2006.0)" />
+        <Required key="2" type="2" schemaName="adx_name" displayName="Name" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
         <Dependent key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="2" schemaName="adx_name" displayName="Name" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
+        <Required key="3" type="2" schemaName="adx_portallanguageid" displayName="Portal Language" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
         <Dependent key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="2" schemaName="adx_portallanguageid" displayName="Portal Language" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
+        <Required key="4" type="2" schemaName="adx_preferredlanguageid" displayName="Preferred Language" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftPortalBase (9.2.2006.0)" />
         <Dependent key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
       </MissingDependency>
       <MissingDependency>
@@ -147,15 +147,15 @@
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="16" type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)" />
+        <Required key="17" type="2" schemaName="businesscard" displayName="Business Card" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="18" type="2" schemaName="businesscard" displayName="Business Card" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)" />
+        <Required key="18" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
@@ -179,7 +179,7 @@
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="24" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
+        <Required key="24" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
@@ -187,7 +187,7 @@
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Required key="26" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
@@ -199,43 +199,43 @@
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2007.2013)" />
+        <Required key="28" type="66" schemaName="MscrmControls.TalkingPointsControl.TalkingPoints" displayName="MscrmControls.TalkingPointsControl.TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701062)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="66" schemaName="MscrmControls.TalkingPointsControl.TalkingPoints" displayName="MscrmControls.TalkingPointsControl.TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701062)" />
+        <Required key="29" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2007.2013)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2007.2013)" />
+        <Required key="30" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2007.2013)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Required key="31" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.701062)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (8.8.0.88)" />
+        <Required key="32" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.701062)" />
+        <Required key="33" type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (8.8.0.88)" />
         <Dependent key="13" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="2" schemaName="preferredequipmentid" displayName="Preferred Facility/Equipment" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" />
+        <Required key="34" type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_ProductManagement (9.0.4.0066)" />
         <Dependent key="35" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="2" schemaName="preferredserviceid" displayName="Preferred Service" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" />
+        <Required key="18" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" />
         <Dependent key="35" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Required key="36" type="2" schemaName="preferredequipmentid" displayName="Preferred Facility/Equipment" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" />
         <Dependent key="35" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="37" type="2" schemaName="preferredserviceid" displayName="Preferred Service" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" />
         <Dependent key="35" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
@@ -387,19 +387,19 @@
         <Dependent key="72" type="2" schemaName="parentcustomerid" displayName="Company Name" parentSchemaName="contact" parentDisplayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
-        <Dependent key="73" type="2" schemaName="adx_preferredlanguageidname" parentSchemaName="contact" parentDisplayName="Contact" />
-      </MissingDependency>
-      <MissingDependency>
         <Required key="6" type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.0578)" />
-        <Dependent key="74" type="2" schemaName="msdyn_contactkpiidname" parentSchemaName="contact" parentDisplayName="Contact" />
+        <Dependent key="73" type="2" schemaName="msdyn_contactkpiidname" parentSchemaName="contact" parentDisplayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="75" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="76" type="2" schemaName="msa_managingpartneridname" parentSchemaName="contact" parentDisplayName="Contact" />
+        <Required key="74" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Dependent key="75" type="2" schemaName="msa_managingpartneridname" parentSchemaName="contact" parentDisplayName="Contact" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="75" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Required key="1" type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2006.0)" />
+        <Dependent key="76" type="2" schemaName="adx_preferredlanguageidname" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.10.0)" />
         <Dependent key="77" type="2" schemaName="msa_managingpartneridyominame" parentSchemaName="contact" parentDisplayName="Contact" />
       </MissingDependency>
     </MissingDependencies>
