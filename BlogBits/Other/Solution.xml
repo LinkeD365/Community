@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.23162" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.23465" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>BlogBits</UniqueName>
     <LocalizedNames>
@@ -84,6 +84,7 @@
       <RootComponent type="29" id="{44befae4-7a02-eb11-a813-000d3a7fc45e}" behavior="0" />
       <RootComponent type="29" id="{63ddabc1-feb5-ea11-a812-000d3a7fc8be}" behavior="0" />
       <RootComponent type="29" id="{7be3bf59-8ab7-ea11-a812-000d3a7fc8be}" behavior="0" />
+      <RootComponent type="29" id="{7e588be2-3f06-eb11-a813-000d3a7fc45e}" behavior="0" />
       <RootComponent type="29" id="{a7adfa57-499f-ea11-a812-000d3a7fc8be}" behavior="0" />
       <RootComponent type="29" id="{e4d23147-66b4-ea11-a812-000d3a7fc8be}" behavior="0" />
       <RootComponent type="29" id="{ed1a0c3b-fca6-ea11-a812-000d3a7fc8be}" behavior="0" />
