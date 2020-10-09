@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{7e588be2-3f06-eb11-a813-000d3a7fc45e}" Name="test2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Workflow WorkflowId="{7e588be2-3f06-eb11-a813-000d3a7fc45e}" Name="test2" Description="testing description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <JsonFileName>/Workflows/test2-7E588BE2-3F06-EB11-A813-000D3A7FC45E.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
@@ -23,4 +23,7 @@
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="test2" />
   </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="testing description" />
+  </Descriptions>
 </Workflow>
