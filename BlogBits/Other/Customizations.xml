@@ -47,6 +47,20 @@
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedonedriveforbusiness_4068e">
+      <connectionreferencedisplayname>OneDrive for Business</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_onedriveforbusiness</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedwordonlinebusiness_0ab11">
+      <connectionreferencedisplayname>Word Online (Business)</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_wordonlinebusiness</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
     <connectionreference connectionreferencelogicalname="cc_sharedexcelonlinebusiness_01ca2">
       <connectionreferencedisplayname>Excel Online (Business)</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness</connectorid>
