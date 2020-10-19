@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.23744" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.24044" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>BlogBits</UniqueName>
     <LocalizedNames>
@@ -96,6 +96,10 @@
       <MissingDependency>
         <Required key="0" type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
         <Dependent key="1" type="29" displayName="Button -&gt; Perform an unbound action" id="{e4d23147-66b4-ea11-a812-000d3a7fc8be}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="connectionreference" displayName="cc_sharedcommondataservice_8af1b" solution="Active" id.connectionreferencelogicalname="cc_sharedcommondataservice_8af1b" />
+        <Dependent key="3" type="29" displayName="3 test" id="{19512b9e-b90b-eb11-a813-000d3a7fc45e}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
