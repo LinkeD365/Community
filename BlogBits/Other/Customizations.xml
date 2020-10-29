@@ -26,6 +26,13 @@
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedrss_bb2db">
+      <connectionreferencedisplayname>RSS</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_rss</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
     <connectionreference connectionreferencelogicalname="cc_sharedexcelonline_04027">
       <connectionreferencedisplayname>Excel Online (OneDrive)</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_excelonline</connectorid>
@@ -47,9 +54,23 @@
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedmicrosoftformspro_c35dd">
+      <connectionreferencedisplayname>Dynamics 365 Customer Voice</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_microsoftformspro</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
     <connectionreference connectionreferencelogicalname="cc_sharedoffice365_27b0a">
       <connectionreferencedisplayname>Office 365 Outlook</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedwebcontents_88e3f">
+      <connectionreferencedisplayname>HTTP with Azure AD</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_webcontents</connectorid>
       <iscustomizable>1</iscustomizable>
       <statecode>0</statecode>
       <statuscode>1</statuscode>
@@ -85,6 +106,13 @@
     <connectionreference connectionreferencelogicalname="cc_sharedsendmail_a3323">
       <connectionreferencedisplayname>Mail</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_sendmail</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cc_sharedmicrosoftforms_d0846">
+      <connectionreferencedisplayname>Microsoft Forms</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_microsoftforms</connectorid>
       <iscustomizable>1</iscustomizable>
       <statecode>0</statecode>
       <statuscode>1</statuscode>
