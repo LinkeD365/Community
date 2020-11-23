@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.25236" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.25547" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>Alexa</UniqueName>
     <LocalizedNames>
@@ -125,7 +125,7 @@
         <Dependent key="5" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="10" schemaName="msdyn_pricelevel_msdyn_workordertype_PriceList" displayName="msdyn_pricelevel_msdyn_workordertype_PriceList" parentSchemaName="pricelevel" parentDisplayName="Price List" solution="FieldService (8.8.0.88)" />
+        <Required key="11" type="10" schemaName="msdyn_pricelevel_msdyn_workordertype_PriceList" displayName="msdyn_pricelevel_msdyn_workordertype_PriceList" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
         <Dependent key="5" type="60" displayName="Information" parentDisplayName="Work Order Type" id="{65d7528f-b2ff-450a-9b5d-a2e46464ce04}" />
       </MissingDependency>
       <MissingDependency>
