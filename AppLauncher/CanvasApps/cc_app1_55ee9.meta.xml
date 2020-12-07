@@ -21,6 +21,7 @@
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies xsi:nil="true"></CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/cc_app1_55ee9_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/cc_app1_55ee9_DocumentUri.msapp</DocumentUri>
 </CanvasApp>
